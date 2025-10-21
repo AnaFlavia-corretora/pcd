@@ -1,0 +1,364 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center; /* Centraliza o texto e elementos inline/inline-block */
+}
+
+header {
+  background: black;
+  color: white;
+  /* Ajuste o padding para controlar a altura mínima do cabeçalho.
+     Aumente os valores verticais (primeiro e terceiro) para mais altura. */
+  padding: 0px 0px; /* Exemplo: 30px em cima/embaixo, 20px nas laterais */
+  display: flex; /* Mantém o flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  min-height: 80px; /* Garante uma altura mínima para o cabeçalho, mesmo sem conteúdo grande */
+  /* Opcional: Para ocupar 100% da largura, mas já é o padrão de um bloco */
+  width: 100%;
+}
+
+header .logo-link {
+  display: flex; /* Use flexbox para o link também, se o SVG for o único item e quiser mais controle */
+  justify-content: center; /* Centraliza o SVG dentro do link */
+  align-items: center;
+  width: 100%; /* O link ocupa 100% da largura disponível no cabeçalho */
+  /* Remova margin-bottom se não for mais necessário */
+}
+
+.header-logo-svg {
+  width: 100%; /* Faça o SVG ocupar 90% da largura de seu pai (.logo-link) */
+  max-width: 1098px; /* Defina um tamanho máximo para o SVG em telas muito grandes */
+  height: auto; /* Mantenha a proporção do SVG */
+  display: block; /* Garante que a imagem se comporte como bloco para margens/alinhamento */
+  margin: 0 auto; /* Centraliza o SVG horizontalmente, caso 'width' não seja 100% */
+}
+
+/* Remova os estilos para h1, .contact-buttons, .whatsapp, .instagram-icon,
+   header img (o seletor antigo, pois agora você tem .header-logo-svg)
+   e qualquer outro estilo que se aplicava aos elementos removidos do cabeçalho. */
+
+/* Estilo para centralizar o contêiner dos cartões na página principal */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.imovel-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imovel-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.imovel-card-content {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imovel-card-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-details {
+  text-align: left; /* Mantém o alinhamento à esquerda para detalhes */
+  margin-bottom: 10px;
+}
+
+.imovel-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666666;
+}
+
+.imovel-details .cod {
+  font-weight: bold;
+}
+
+.imovel-location {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+}
+
+.imovel-location span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.imovel-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.imovel-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.imovel-icon-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.imovel-icon-item p {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+.imovel-price {
+  font-size: 1.8em;
+  color: #cc0000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.imovel-button {
+  display: block;
+  width: calc(100% - 40px);
+  padding: 15px;
+  margin: 0 20px 20px 20px;
+  background-color: #a9a9a9;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.imovel-button:hover {
+  background-color: #8c8c8c;
+}
+
+/* Estilos para o Carrossel (aplicável também na página de detalhes) */
+.carousel {
+  position: relative;
+  max-width: 785px;
+  margin: 10px auto;
+}
+
+.carousel img.main {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  position: absolute;
+  top: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.thumbnails {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.thumbnails img.active {
+  border: 2px solid #333;
+}
+
+/* Estilos para o Lightbox (CRUCIAL para a funcionalidade flutuante) */
+.lightbox {
+  display: none; /* Inicia oculto */
+  position: fixed; /* Fixa na tela */
+  z-index: 9999; /* Garante que fique acima de tudo */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9); /* Fundo semi-transparente */
+  /*display: flex; */ /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column; /* Organiza itens em coluna */
+}
+
+.lightbox img#lightbox-img {
+  /* Específico para a imagem ampliada */
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  object-fit: contain; /* Garante que a imagem inteira seja visível */
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px; /* Tamanho maior para o X de fechar */
+  color: white;
+  cursor: pointer;
+  z-index: 10000; /* Acima da imagem */
+}
+
+.lightbox .nav {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none; /* Impede seleção de texto nos botões */
+  z-index: 10000; /* Acima da imagem */
+}
+
+.lightbox .nav.prev-nav {
+  /* Usando prev-nav e next-nav para evitar conflito com .prev/.next do carrossel */
+  left: 20px;
+}
+
+.lightbox .nav.next-nav {
+  right: 20px;
+}
+
+/* Estilos para a página de detalhes (detalhes-imovel.html) */
+main#imovel-detalhes-container {
+  max-width: 900px; /* Largura máxima para o conteúdo de detalhes */
+  margin: 20px auto; /* Centraliza o contêiner principal */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Ajustes para o info-container na página de detalhes */
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.95em;
+  color: #555;
+  min-width: 100px; /* Garante um tamanho mínimo para cada item */
+}
+
+.info-item img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+.info-item span {
+  font-weight: bold;
+}
+
+.descricao {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: justify; /* Justifica o texto da descrição */
+}
+
+.descricao p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Media Queries para ajuste fino em telas menores */
+@media (max-width: 1080px) {
+  /* Para tablets e celulares */
+  header {
+    padding: 0px 0px; /* Reduza o padding do cabeçalho em telas menores */
+    min-height: 60px; /* Altura mínima menor para celular */
+  }
+
+  .header-logo-svg {
+    width: 100%; /* SVG pode ser um pouco maior em telas menores */
+    max-width: 1080px; /* Reduza o tamanho máximo para celular */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Para celulares pequenos */
+  header {
+    padding: 0px 0px; /* Mais redução de padding */
+    min-height: 50px;
+  }
+
+  .header-logo-svg {
+    width: 100%; /* Ocupa 100% da largura disponível no celular */
+  }
+}

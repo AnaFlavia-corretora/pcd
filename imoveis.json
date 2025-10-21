@@ -1,0 +1,20 @@
+[
+  {
+    "tipo": "BYD DOLPHIN MINI GL",
+    "localizacao": "R$ 118.800,00",
+    "valor": "R$ 99.990,00",
+    "imagens": ["images/byd/Dolphin_Mini_PCD_2025.png"]
+  },
+  {
+    "tipo": "BYD SONG PRO GL",
+    "localizacao": "R$ 189.990,00",
+    "valor": "R$ 147.990,00",
+    "imagens": ["images/byd/PCD_Song_Pro_Offer_2025.png"]
+  },
+  {
+    "tipo": "BYD KING GL",
+    "localizacao": "R$ 169.990,00",
+    "valor": "R$ 132.090,00",
+    "imagens": ["images/byd/PCD_King_Offer_2025.png"]
+  }
+]
