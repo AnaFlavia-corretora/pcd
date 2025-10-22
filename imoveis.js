@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="imovel-card-content">
             <h3>${imovel.tipo}</h3>
             <div class="imovel-details">
-              <p><span class="cod">De:</span></p>
               <div class="imovel-location">
                 ${imovel.localizacao}
               </div>

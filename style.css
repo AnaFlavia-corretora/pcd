@@ -90,7 +90,7 @@ header .logo-link {
 }
 
 .imovel-details {
-  text-align: left; /* Mantém o alinhamento à esquerda para detalhes */
+  text-align: center; /* Mantém o alinhamento à esquerda para detalhes */
   margin-bottom: 10px;
 }
 
@@ -107,7 +107,7 @@ header .logo-link {
 .imovel-location {
   margin-top: 5px;
   font-size: 1em;
-  color: #333;
+  color: #666;
   font-weight: bold;
 }
 
