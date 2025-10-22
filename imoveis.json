@@ -1,7 +1,7 @@
 [
   {
     "tipo": "CITROEN C3 FEEL",
-    "localizacao": "$ 93.990,00",
+    "localizacao": "R$ 93.990,00",
     "valor": "R$ 74.350,00",
     "imagens": ["images/citroen/c3_feel.png"]
   },
@@ -61,7 +61,7 @@
   },
   {
     "tipo": "NISSAN Kicks Sense",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 131.590,00",
     "valor": "R$ 106.990,00",
     "imagens": ["images/nissan/kicks_play_sense.png"]
   },
@@ -73,7 +73,7 @@
   },
   {
     "tipo": "NISSAN Versa Advance",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 127.290,00",
     "valor": "R$ 107.490,00",
     "imagens": ["images/nissan/versa_advance.png"]
   },
@@ -85,13 +85,13 @@
   },
   {
     "tipo": "NISSAN Kicks Advance",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 150.190,00",
     "valor": "R$ 120.990,00",
     "imagens": ["images/nissan/kicks_play_advance.png"]
   },
   {
     "tipo": "NISSAN Versa Exclusive",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 145.390,00",
     "valor": "R$ 121.490,00",
     "imagens": ["images/nissan/versa_exclusive.png"]
   },
@@ -115,7 +115,7 @@
   },
   {
     "tipo": "NISSAN SENTRA Advance",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 174.490,00",
     "valor": "R$ 136.490,00",
     "imagens": ["images/nissan/sentra_advance.png"]
   },
@@ -163,13 +163,13 @@
   },
   {
     "tipo": "NISSAN Kicks Advance",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 177.990,00",
     "valor": "R$ 156.990,00",
     "imagens": ["images/nissan/novo_kicks_advance.png"]
   },
   {
     "tipo": "NISSAN SENTRA Excl.",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 198.790,00",
     "valor": "R$ 159.990,00",
     "imagens": ["images/nissan/sentra_exclusive.png"]
   },
@@ -181,7 +181,7 @@
   },
   {
     "tipo": "NISSAN Kicks Exclusive",
-    "localizacao": "R$ ?",
+    "localizacao": "R$ 184.790,00",
     "valor": "R$ 167.990,00",
     "imagens": ["images/nissan/novo_kicks_exclusive.png"]
   },
