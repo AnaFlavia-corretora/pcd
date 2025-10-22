@@ -96,12 +96,6 @@
     "imagens": ["images/nissan/versa_exclusive.png"]
   },
   {
-    "tipo": "BYD KING GL",
-    "localizacao": "R$ 169.990,00",
-    "valor": "R$ 132.090,00",
-    "imagens": ["images/byd/king_gl.png"]
-  },
-  {
     "tipo": "HONDA CITY EX",
     "localizacao": "R$ 136.200,00",
     "valor": "R$ 122.225,80",
@@ -112,6 +106,12 @@
     "localizacao": "R$ 143.500,00",
     "valor": "R$ 129.674,30",
     "imagens": ["images/honda/city_exl.png"]
+  },
+  {
+    "tipo": "BYD KING GL",
+    "localizacao": "R$ 169.990,00",
+    "valor": "R$ 132.090,00",
+    "imagens": ["images/byd/king_gl.png"]
   },
   {
     "tipo": "NISSAN SENTRA Advance",
