@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: black;
+  background: rgb(255, 255, 255);
   color: white;
   /* Ajuste o padding para controlar a altura mínima do cabeçalho.
      Aumente os valores verticais (primeiro e terceiro) para mais altura. */
