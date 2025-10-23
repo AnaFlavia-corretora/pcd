@@ -91,6 +91,13 @@
     "imagens": ["images/nissan/versa_advance.png"]
   },
   {
+    "marca": "Chevrolet",
+    "tipo": "Tracker",
+    "localizacao": "De: R$ 119.900,00",
+    "valor": "R$ 105.862,00",
+    "imagens": ["images/chevrolet/tracker.png"]
+  },
+  {
     "marca": "JEEP",
     "tipo": "Renegade Altitude",
     "localizacao": "De: R$ 142.990,00",
@@ -124,6 +131,13 @@
     "localizacao": "De: R$ 143.500,00",
     "valor": "R$ 129.674,30",
     "imagens": ["images/honda/city_exl.png"]
+  },
+  {
+    "marca": "CAOA",
+    "tipo": "Tiggo 7 Sport",
+    "localizacao": "De: R$ 139.990,00",
+    "valor": "R$ 131.870,00",
+    "imagens": ["images/caoa/tiggo_7_sport.png"]
   },
   {
     "marca": "BYD",
