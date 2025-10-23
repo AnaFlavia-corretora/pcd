@@ -161,11 +161,18 @@
     "imagens": ["images/nissan/novo_kicks_sense.png"]
   },
   {
-    "marca": "JEEP",
-    "tipo": "Compass Longitude",
-    "localizacao": "De: R$ 192.990,00",
-    "valor": "R$ 164.299,00",
-    "imagens": ["images/jeep/compass_longitude.png"]
+    "marca": "TOYOTA",
+    "tipo": "Corolla Cross XR",
+    "localizacao": "De: R$ 191.010,00",
+    "valor": "R$ 144.651,00",
+    "imagens": ["images/toyota/corolla_cross_xr.png"]
+  },
+  {
+    "marca": "TOYOTA",
+    "tipo": "Corolla GLI",
+    "localizacao": "De: R$ 176.500,00",
+    "valor": "R$ 144.658,00",
+    "imagens": ["images/toyota/corolla_gli.png"]
   },
   {
     "marca": "BYD",
@@ -203,6 +210,13 @@
     "imagens": ["images/nissan/sentra_exclusive.png"]
   },
   {
+    "marca": "TOYOTA",
+    "tipo": "Corolla XEI",
+    "localizacao": "De: R$ 170.910,00",
+    "valor": "R$ 160.334,00",
+    "imagens": ["images/toyota/corolla_xei.png"]
+  },
+  {
     "marca": "BYD",
     "tipo": "KING GS",
     "localizacao": "De: R$ 175.990,00",
@@ -210,11 +224,25 @@
     "imagens": ["images/byd/king_gs.png"]
   },
   {
+    "marca": "JEEP",
+    "tipo": "Compass Longitude",
+    "localizacao": "De: R$ 192.990,00",
+    "valor": "R$ 164.299,00",
+    "imagens": ["images/jeep/compass_longitude.png"]
+  },
+  {
     "marca": "NISSAN",
     "tipo": "New Kicks Exclusive",
     "localizacao": "De: R$ 184.790,00",
     "valor": "R$ 167.990,00",
     "imagens": ["images/nissan/novo_kicks_exclusive.png"]
+  },
+  {
+    "marca": "TOYOTA",
+    "tipo": "Corolla Cross XRE",
+    "localizacao": "De: R$ 193.210,00",
+    "valor": "R$ 178.435,00",
+    "imagens": ["images/toyota/corolla_cross_xre.png"]
   },
   {
     "marca": "NISSAN",
