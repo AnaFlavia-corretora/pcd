@@ -14,10 +14,15 @@
       </a>
     </header>
     <h2>Ofertas PCD - Modelos e valores de referência</h2>
-    <!-- Este div será preenchido dinamicamente pelo JavaScript -->
-    <div class="cards-container" id="lista-imoveis">
-      <!-- Os cartões dos imóveis serão inseridos aqui pelo imoveis.js -->
+
+    <div class="sort-controls">
+      <label for="sort-select">Ordenar por:</label>
+      <select id="sort-select">
+        <option value="valor_asc">Valor</option>
+        <option value="marca_asc">Marca</option>
+      </select>
     </div>
+    <div class="cards-container" id="lista-imoveis"></div>
 
     <script src="imoveis.js"></script>
   </body>

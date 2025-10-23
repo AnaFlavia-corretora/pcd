@@ -49,7 +49,7 @@
     "imagens": ["images/byd/dolphin_mini_gl.png"]
   },
   {
-    "marca": "VW",
+    "marca": "Volkswagen",
     "tipo": "T-Cross Sense",
     "localizacao": "De: R$ 119.990,00",
     "valor": "R$ 101.791,00",
@@ -162,7 +162,7 @@
   },
   {
     "marca": "JEEP",
-    "tipo": "Compass Sport",
+    "tipo": "Compass Longitude",
     "localizacao": "De: R$ 192.990,00",
     "valor": "R$ 164.299,00",
     "imagens": ["images/jeep/compass_longitude.png"]
@@ -190,14 +190,14 @@
   },
   {
     "marca": "NISSAN",
-    "tipo": "Kicks Advance",
+    "tipo": "New Kicks Advance",
     "localizacao": "De: R$ 177.990,00",
     "valor": "R$ 156.990,00",
     "imagens": ["images/nissan/novo_kicks_advance.png"]
   },
   {
     "marca": "NISSAN",
-    "tipo": "SENTRA Excl.",
+    "tipo": "SENTRA Exclusive",
     "localizacao": "De: R$ 198.790,00",
     "valor": "R$ 159.990,00",
     "imagens": ["images/nissan/sentra_exclusive.png"]
@@ -207,18 +207,18 @@
     "tipo": "KING GS",
     "localizacao": "De: R$ 175.990,00",
     "valor": "R$ 161.015,00",
-    "imagens": ["images/byd/king_gl.png"]
+    "imagens": ["images/byd/king_gs.png"]
   },
   {
     "marca": "NISSAN",
-    "tipo": "Kicks Exclusive",
+    "tipo": "New Kicks Exclusive",
     "localizacao": "De: R$ 184.790,00",
     "valor": "R$ 167.990,00",
     "imagens": ["images/nissan/novo_kicks_exclusive.png"]
   },
   {
     "marca": "NISSAN",
-    "tipo": "Kicks Platium",
+    "tipo": "New Kicks Platium",
     "localizacao": "De: R$ 164.990,00",
     "valor": "R$ 180.990,00",
     "imagens": ["images/nissan/novo_kicks_platium.png"]

@@ -362,3 +362,51 @@ main#imovel-detalhes-container {
     width: 100%; /* Ocupa 100% da largura disponível no celular */
   }
 }
+
+/* Arquivo: style.css */
+/* ... (Seu conteúdo existente) ... */
+
+/* Novo CSS para o controle de ordenação */
+.sort-controls {
+  max-width: 1098px; /* Mantém a largura máxima dos outros elementos, se aplicável */
+  margin: 0px auto 20px auto; /* Centraliza e adiciona margem inferior */
+  padding: 0 20px;
+  text-align: right; /* Alinha o controle à direita do container */
+}
+
+#sort-select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Arquivo: style.css */
+/* ... (Seu conteúdo existente) ... */
+
+/* Estilos para o Título da Marca e Linha Separadora */
+.marca-group-title,
+.marca-separator-line {
+  /* Faz o elemento ocupar todas as colunas do grid do .cards-container */
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 20px 0;
+  text-align: left; /* Alinha o título à esquerda */
+  padding: 0 20px; /* Adiciona padding para alinhar horizontalmente com os cartões */
+  box-sizing: border-box;
+}
+
+.marca-group-title {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 5px; /* Espaço pequeno antes da linha */
+}
+
+.marca-separator-line {
+  border: none;
+  height: 1px;
+  background-color: #ccc; /* Linha cinza clara */
+  margin-top: 5px;
+  margin-bottom: 30px; /* Espaçamento maior após a linha para separar do próximo bloco de cartões */
+}
