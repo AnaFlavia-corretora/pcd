@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.innerHTML = `
           <img src="${imovel.imagens[0]}" class="imovel-card-image">
           <div class="imovel-card-content">
-            <h3>${imovel.tipo}</h3>
+            <h3>${imovel.marca} ${imovel.tipo}</h3>
             <div class="imovel-details">
               <div class="imovel-location">
                 ${imovel.localizacao}
