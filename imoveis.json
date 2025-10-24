@@ -7,6 +7,13 @@
     "imagens": ["images/citroen/c3_feel.png"]
   },
   {
+    "marca": "PEUGEOT",
+    "tipo": "208 Style",
+    "localizacao": "De: R$ 105.990,00",
+    "valor": "R$ 81.975,00",
+    "imagens": ["images/peugeot/208.png"]
+  },
+  {
     "marca": "FIAT",
     "tipo": "Argo Trekking",
     "localizacao": "De: R$ 110.480,00",
@@ -124,6 +131,13 @@
     "localizacao": "De: R$ 136.200,00",
     "valor": "R$ 122.225,80",
     "imagens": ["images/honda/city_ex.png"]
+  },
+  {
+    "marca": "PEUGEOT",
+    "tipo": "208 Active",
+    "localizacao": "De: R$ 149.990,00",
+    "valor": "R$ 123.277,00",
+    "imagens": ["images/peugeot/2008.png"]
   },
   {
     "marca": "HYUNDAI",
