@@ -126,6 +126,13 @@
     "imagens": ["images/honda/city_ex.png"]
   },
   {
+    "marca": "HYUNDAI",
+    "tipo": "CRETA",
+    "localizacao": "De: R$ 151.790,00",
+    "valor": "R$ 127.246,00",
+    "imagens": ["images/hyundai/creta.png"]
+  },
+  {
     "marca": "HONDA",
     "tipo": "CITY EXL",
     "localizacao": "De: R$ 143.500,00",
