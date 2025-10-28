@@ -84,6 +84,13 @@
     "imagens": ["images/byd/dolphin_mini_gs.png"]
   },
   {
+    "marca": "RENAULT",
+    "tipo": "Kardian Authentic",
+    "localizacao": "De: R$ 119.990,00",
+    "valor": "R$ 105.867,39",
+    "imagens": ["images/renault/kardian_authentic.png"]
+  },
+  {
     "marca": "NISSAN",
     "tipo": "Kicks Sense",
     "localizacao": "De: R$ 131.590,00",
@@ -119,6 +126,13 @@
     "imagens": ["images/jeep/renegade_altitude.png"]
   },
   {
+    "marca": "RENAULT",
+    "tipo": "Duster Intense",
+    "localizacao": "De: R$ 149.490,00",
+    "valor": "R$ 115.798,69",
+    "imagens": ["images/renault/duster_intense.png"]
+  },
+  {
     "marca": "NISSAN",
     "tipo": "Kicks Advance",
     "localizacao": "De: R$ 150.190,00",
@@ -145,6 +159,13 @@
     "localizacao": "De: R$ 149.990,00",
     "valor": "R$ 123.277,00",
     "imagens": ["images/peugeot/2008.png"]
+  },
+  {
+    "marca": "RENAULT",
+    "tipo": "Duster Iconic",
+    "localizacao": "De: R$ 159.590,00",
+    "valor": "R$ 123.622,40",
+    "imagens": ["images/renault/duster_iconic.png"]
   },
   {
     "marca": "HYUNDAI",
