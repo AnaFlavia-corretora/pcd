@@ -49,6 +49,13 @@
     "imagens": ["images/nissan/versa_sense.png"]
   },
   {
+    "marca": "PEUGEOT",
+    "tipo": "208 Active Turbo",
+    "localizacao": "De: R$ 113.990,00",
+    "valor": "R$ 97.493,00",
+    "imagens": ["images/peugeot/208_active.png"]
+  },
+  {
     "marca": "BYD",
     "tipo": "DOLPHIN MINI GL",
     "localizacao": "De: R$ 118.990,00",
