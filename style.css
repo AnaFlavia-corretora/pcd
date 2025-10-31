@@ -410,3 +410,35 @@ main#imovel-detalhes-container {
   margin-top: 5px;
   margin-bottom: 30px; /* Espaçamento maior após a linha para separar do próximo bloco de cartões */
 }
+
+/* Estilo para o Botão Voltar ao Topo */
+#scrollToTopBtn {
+  display: none; /* Inicia oculto (fallback para JS) */
+  position: fixed; /* Fixa o botão na tela */
+  bottom: 20px; /* Distância da parte inferior */
+  right: 20px; /* Distância da lateral direita */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  padding: 10px 15px;
+  background-color: #007bff; /* Cor primária, ajuste se necessário */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Torna-o circular */
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1; /* Alinha o conteúdo (seta) no centro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, opacity 0.3s;
+  opacity: 0; /* Começa totalmente transparente */
+  visibility: hidden; /* Garante que não possa ser clicado enquanto estiver oculto */
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Classe que será adicionada pelo JS para mostrar o botão */
+#scrollToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+  display: block; /* Garante que o display: none seja sobrescrito */
+}

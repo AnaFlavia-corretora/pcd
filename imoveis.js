@@ -113,6 +113,38 @@ function renderImoveis(imoveis, currentSortOption) {
 document.addEventListener("DOMContentLoaded", () => {
   const sortSelect = document.getElementById("sort-select");
 
+  // Lógica do botão "Voltar ao Topo" movida para DENTRO do DOMContentLoaded
+  const scrollButton = document.getElementById("scrollToTopBtn");
+
+  // 1. Função para rolar para o topo
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Rola suavemente
+    });
+  }
+
+  // 2. Função para controlar a visibilidade do botão
+  function toggleScrollToTopButton() {
+    // Exibe o botão se a rolagem vertical for maior que 300 pixels
+    if (
+      document.body.scrollTop > 300 ||
+      document.documentElement.scrollTop > 300
+    ) {
+      scrollButton.classList.add("show");
+    } else {
+      scrollButton.classList.remove("show");
+    }
+  }
+
+  // 3. Adiciona os Event Listeners
+  if (scrollButton) {
+    scrollButton.addEventListener("click", scrollToTop);
+    // Adiciona o listener de rolagem APÓS o botão ser encontrado
+    window.addEventListener("scroll", toggleScrollToTopButton);
+  }
+
+  // Lógica de Carregamento e Ordenação (já existente)
   fetch("imoveis.json")
     .then((res) => {
       if (!res.ok) {
