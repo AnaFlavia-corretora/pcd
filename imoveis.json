@@ -70,6 +70,13 @@
     "imagens": ["images/vw/t_cross_sense.png"]
   },
   {
+    "marca": "Volkswagen",
+    "tipo": "New T-Cross Sense",
+    "localizacao": "De: R$ 119.990,00",
+    "valor": "R$ 101.792,00",
+    "imagens": ["images/vw/new_t_cross_sense.png"]
+  },
+  {
     "marca": "JEEP",
     "tipo": "Renegade Sport",
     "localizacao": "De: R$ 118.290,00",
@@ -152,6 +159,13 @@
     "localizacao": "De: R$ 136.200,00",
     "valor": "R$ 122.225,80",
     "imagens": ["images/honda/city_ex.png"]
+  },
+  {
+    "marca": "Volkswagen",
+    "tipo": "Tera High",
+    "localizacao": "De: R$ 141.890,00",
+    "valor": "R$ 123.106,00",
+    "imagens": ["images/vw/tera.png"]
   },
   {
     "marca": "PEUGEOT",

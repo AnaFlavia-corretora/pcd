@@ -66,7 +66,7 @@ function renderImoveis(imoveis, currentSortOption) {
   let lastMarca = null; // Usado para rastrear a marca anterior
 
   imoveis.forEach((imovel) => {
-    // Lógica de separação por marca
+    // Lógica de separação por marca (igual ao código anterior)
     if (isSortedByMarca && imovel.marca !== lastMarca) {
       // 1. Cria o título da marca
       const marcaTitle = document.createElement("h2");
@@ -80,13 +80,20 @@ function renderImoveis(imoveis, currentSortOption) {
       container.appendChild(separator);
     }
 
+    // NOVO: Define o conteúdo do título do cartão
+    // Se a ordenação for por marca, exibe apenas o tipo (modelo).
+    // Caso contrário (padrão ou valor), exibe Marca + Tipo.
+    const cardTitle = isSortedByMarca
+      ? `${imovel.tipo}`
+      : `${imovel.marca} ${imovel.tipo}`;
+
     // Lógica de renderização do cartão
     const card = document.createElement("div");
     card.className = "imovel-card";
     card.innerHTML = `
           <img src="${imovel.imagens[0]}" class="imovel-card-image">
           <div class="imovel-card-content">
-            <h3>${imovel.marca} ${imovel.tipo}</h3>
+            <h3>${cardTitle}</h3>
             <div class="imovel-details">
               <div class="imovel-location">
                 ${imovel.localizacao}
@@ -98,7 +105,7 @@ function renderImoveis(imoveis, currentSortOption) {
         `;
     container.appendChild(card);
 
-    // 3. Atualiza a última marca
+    // Atualiza a última marca
     lastMarca = imovel.marca;
   });
 }
