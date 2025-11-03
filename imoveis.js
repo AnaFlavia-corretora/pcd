@@ -3,24 +3,77 @@
 let imoveisData = [];
 
 /**
- * Converte a string de valor (R$ X.XXX,XX) para um número (float) para ordenação.
+ * Converte a string de valor para um float para ordenação/cálculo.
+ * Torna a limpeza mais robusta removendo todos os caracteres não numéricos,
+ * exceto vírgulas e pontos, e padronizando o decimal.
  * @param {string} valorString - O valor em formato string (ex: "R$ 74.350,00").
  * @returns {number} O valor numérico.
  */
 function cleanAndParseValue(valorString) {
-  // Remove "R$", pontos de milhar, substitui a vírgula por ponto decimal e converte para número.
-  const cleanedValue = valorString
-    .replace("R$", "")
-    .replace(/\./g, "")
-    .replace(",", ".")
-    .trim();
-  return parseFloat(cleanedValue);
+  if (!valorString) return 0; // Trata valores nulos ou vazios para evitar NaN
+
+  // 1. Remove TUDO que não seja dígito, vírgula ou ponto.
+  let cleanedValue = valorString.replace(/[^0-9.,]/g, "").trim();
+
+  // 2. Conta quantas vírgulas e pontos existem.
+  const commaCount = (cleanedValue.match(/,/g) || []).length;
+  const dotCount = (cleanedValue.match(/\./g) || []).length;
+
+  // 3. Heurística para determinar o separador decimal:
+  if (commaCount > 0 && dotCount > 0) {
+    // Se há ambos, o último geralmente é o decimal no padrão BR.
+    if (cleanedValue.lastIndexOf(",") > cleanedValue.lastIndexOf(".")) {
+      // Padrão BR: Ponto é milhar, Vírgula é decimal. Remove pontos, troca vírgula por ponto.
+      cleanedValue = cleanedValue.replace(/\./g, "").replace(",", ".");
+    } else {
+      // Padrão EN: Vírgula é milhar, Ponto é decimal. Remove vírgulas.
+      cleanedValue = cleanedValue.replace(/,/g, "");
+    }
+  } else if (commaCount === 1 && dotCount === 0) {
+    // Se há apenas uma vírgula, assume-se que é o separador decimal.
+    cleanedValue = cleanedValue.replace(",", ".");
+  }
+
+  // 4. Converte para float. Se a string estiver vazia ou inválida, retorna 0.
+  const parsedValue = parseFloat(cleanedValue);
+  return isNaN(parsedValue) ? 0 : parsedValue;
+}
+
+/**
+ * Calcula o Desconto: localização (Preço Teto/Público) - valor (Preço PCD).
+ * @param {Object} imovel - O objeto do imóvel.
+ * @returns {number} O valor do desconto.
+ */
+function calculateDesconto(imovel) {
+  // Presumindo que 'localizacao' e 'valor' são as colunas mencionadas
+  // e que 'localizacao' representa o preço público e 'valor' o preço final.
+  // Garantimos que 'localizacao' e 'valor' existem para evitar erros.
+  const precoPublico = cleanAndParseValue(imovel.localizacao || "R$ 0,00");
+  const precoPCD = cleanAndParseValue(imovel.valor || "R$ 0,00");
+
+  // Adiciona uma verificação extra para garantir que ambos são números antes de subtrair
+  if (typeof precoPublico === "number" && typeof precoPCD === "number") {
+    return precoPublico - precoPCD;
+  }
+  return 0; // Retorna 0 em caso de erro, ao invés de NaN
+}
+
+/**
+ * Formata um número como moeda brasileira (R$ X.XXX,XX).
+ * @param {number} value - O valor numérico.
+ * @returns {string} O valor formatado.
+ */
+function formatCurrency(value) {
+  return value.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
 }
 
 /**
  * Ordena a lista de imóveis com base na opção selecionada.
  * @param {Array<Object>} data - O array de objetos dos imóveis.
- * @param {string} sortOption - A opção de ordenação ('valor_asc', 'marca_asc' ou 'default').
+ * @param {string} sortOption - A opção de ordenação ('valor_asc', 'marca_asc', 'desconto_desc' ou 'default').
  * @returns {Array<Object>} O array de imóveis ordenado.
  */
 function sortImoveis(data, sortOption) {
@@ -41,6 +94,13 @@ function sortImoveis(data, sortOption) {
         return a.marca.localeCompare(b.marca, "pt-BR");
       });
       break;
+    case "desconto_desc":
+      sortedData.sort((a, b) => {
+        const descontoA = calculateDesconto(a);
+        const descontoB = calculateDesconto(b);
+        return descontoB - descontoA; // NOVO: Ordem decrescente de desconto (maior para o menor)
+      });
+      break;
     case "default":
     default:
       // Retorna a lista original sem ordenar.
@@ -48,6 +108,9 @@ function sortImoveis(data, sortOption) {
   }
   return sortedData;
 }
+
+// Arquivo: imoveis.js (Funções cleanAndParseValue, calculateDesconto, formatCurrency e sortImoveis permanecem as mesmas)
+// ...
 
 /**
  * Renderiza os cartões dos imóveis no container, adicionando separadores por marca se necessário.
@@ -62,7 +125,10 @@ function renderImoveis(imoveis, currentSortOption) {
   }
 
   container.innerHTML = ""; // Limpa o conteúdo existente
+
   const isSortedByMarca = currentSortOption === "marca_asc";
+  // NOVO: Verifica se a ordenação atual é por Desconto
+  const isSortedByDesconto = currentSortOption === "desconto_desc";
   let lastMarca = null; // Usado para rastrear a marca anterior
 
   imoveis.forEach((imovel) => {
@@ -80,12 +146,28 @@ function renderImoveis(imoveis, currentSortOption) {
       container.appendChild(separator);
     }
 
-    // NOVO: Define o conteúdo do título do cartão
-    // Se a ordenação for por marca, exibe apenas o tipo (modelo).
-    // Caso contrário (padrão ou valor), exibe Marca + Tipo.
+    // Define o conteúdo do título do cartão
     const cardTitle = isSortedByMarca
       ? `${imovel.tipo}`
       : `${imovel.marca} ${imovel.tipo}`;
+
+    // NOVO: Adiciona o HTML do desconto APENAS se a ordenação for por Desconto
+    let discountHTML = "";
+
+    if (isSortedByDesconto) {
+      const descontoValue = calculateDesconto(imovel);
+      const descontoFormatted = formatCurrency(descontoValue);
+
+      // Mantém a formatação do campo "localização" e adiciona o valor
+      // Note que o 'imovel-location' é usado para aplicar a mesma formatação
+      discountHTML = `
+            <div class="imovel-details">
+                <div class="imovel-location">
+                    Desconto: ${descontoFormatted}
+                </div>
+            </div>
+        `;
+    }
 
     // Lógica de renderização do cartão
     const card = document.createElement("div");
@@ -99,6 +181,9 @@ function renderImoveis(imoveis, currentSortOption) {
                 ${imovel.localizacao}
               </div>
             </div>
+            
+            ${discountHTML} 
+            
             <div class="imovel-price">${imovel.valor}</div>
           </div>
           <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="imovel-button">WhatsApp</a>
@@ -109,6 +194,8 @@ function renderImoveis(imoveis, currentSortOption) {
     lastMarca = imovel.marca;
   });
 }
+
+// ... Resto do código (DOMContentLoaded)
 
 document.addEventListener("DOMContentLoaded", () => {
   const sortSelect = document.getElementById("sort-select");
