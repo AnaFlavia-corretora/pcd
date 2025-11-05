@@ -59,6 +59,23 @@ function calculateDesconto(imovel) {
 }
 
 /**
+ * Calcula o percentual de desconto: (Desconto / Preço Público) * 100.
+ * @param {Object} imovel - O objeto do imóvel.
+ * @returns {number} O percentual de desconto (ex: 15.5 para 15.5%).
+ */
+function calculateDescontoPercentage(imovel) {
+  const desconto = calculateDesconto(imovel);
+  const precoPublico = cleanAndParseValue(imovel.localizacao || "R$ 0,00");
+
+  // Evita divisão por zero
+  if (precoPublico > 0) {
+    // Multiplica por 100 e limita a 2 casas decimais
+    return ((desconto / precoPublico) * 100).toFixed(2);
+  }
+  return 0;
+}
+
+/**
  * Formata um número como moeda brasileira (R$ X.XXX,XX).
  * @param {number} value - O valor numérico.
  * @returns {string} O valor formatado.
@@ -158,12 +175,12 @@ function renderImoveis(imoveis, currentSortOption) {
       const descontoValue = calculateDesconto(imovel);
       const descontoFormatted = formatCurrency(descontoValue);
 
-      // Mantém a formatação do campo "localização" e adiciona o valor
-      // Note que o 'imovel-location' é usado para aplicar a mesma formatação
+      // NOVO: Calcula o percentual
+      const descontoPercentual = calculateDescontoPercentage(imovel);
       discountHTML = `
             <div class="imovel-details">
                 <div class="imovel-location">
-                    Desconto: ${descontoFormatted}
+                    Desconto: ${descontoFormatted} (${descontoPercentual}%)
                 </div>
             </div>
         `;
