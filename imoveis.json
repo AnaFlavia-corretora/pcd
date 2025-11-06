@@ -49,11 +49,25 @@
     "imagens": ["images/nissan/versa_sense.png"]
   },
   {
+    "marca": "FIAT",
+    "tipo": "Pulse 1.3 Drive",
+    "localizacao": "De: R$ 112.990,00",
+    "valor": "R$ 93.500,00",
+    "imagens": ["images/fiat/pulse_drive.png"]
+  },
+  {
     "marca": "PEUGEOT",
     "tipo": "208 Active",
     "localizacao": "De: R$ 113.990,00",
     "valor": "R$ 97.493,00",
     "imagens": ["images/peugeot/208_active.png"]
+  },
+  {
+    "marca": "FIAT",
+    "tipo": "Pulse Turbo",
+    "localizacao": "De: R$ 116.990,00",
+    "valor": "R$ 98.900,00",
+    "imagens": ["images/fiat/pulse_drive.png"]
   },
   {
     "marca": "BYD",
@@ -89,6 +103,13 @@
     "localizacao": "De: R$ 119.990,00",
     "valor": "R$ 102.990,00",
     "imagens": ["images/byd/dolphin_mini_gs.png"]
+  },
+  {
+    "marca": "FIAT",
+    "tipo": "Fastback Turbo 200",
+    "localizacao": "De: R$ 119.990,00",
+    "valor": "R$ 105.635,00",
+    "imagens": ["images/fiat/fastback_audace.png"]
   },
   {
     "marca": "RENAULT",
@@ -236,6 +257,13 @@
     "localizacao": "De: R$ 164.990,00",
     "valor": "R$ 141.990,00",
     "imagens": ["images/nissan/novo_kicks_sense.png"]
+  },
+  {
+    "marca": "FIAT",
+    "tipo": "Fastback Audace",
+    "localizacao": "De: R$ 160.990,00",
+    "valor": "R$ 142.895,00",
+    "imagens": ["images/fiat/fastback_audace.png"]
   },
   {
     "marca": "TOYOTA",
