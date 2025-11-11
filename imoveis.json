@@ -14,6 +14,13 @@
     "imagens": ["images/peugeot/208.png"]
   },
   {
+    "marca": "CHEVROLET",
+    "tipo": "Onix 1.0",
+    "localizacao": "De: R$ 99.990,00",
+    "valor": "R$ 84.990,00",
+    "imagens": ["images/chevrolet/onix.png"]
+  },
+  {
     "marca": "FIAT",
     "tipo": "Argo Trekking",
     "localizacao": "De: R$ 110.480,00",
@@ -21,11 +28,18 @@
     "imagens": ["images/fiat/argo.png"]
   },
   {
-    "marca": "Volkswagen",
+    "marca": "VOLKSWAGEN",
     "tipo": "Polo Sense",
     "localizacao": "De: R$ 108.490,00",
     "valor": "R$ 89.399,00",
     "imagens": ["images/vw/polo_sense.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "tipo": "Virtus Sense",
+    "localizacao": "De: R$ 110.990,00",
+    "valor": "R$ 89.922,00",
+    "imagens": ["images/vw/virtus_sense.png"]
   },
   {
     "marca": "NISSAN",
@@ -40,6 +54,13 @@
     "localizacao": "De: R$ 117.480,00",
     "valor": "R$ 90.904,00",
     "imagens": ["images/fiat/cronos.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "tipo": "Onix AT",
+    "localizacao": "De: R$ 112.990,00",
+    "valor": "R$ 90.990,00",
+    "imagens": ["images/chevrolet/onix_at.png"]
   },
   {
     "marca": "NISSAN",
@@ -77,14 +98,14 @@
     "imagens": ["images/byd/dolphin_mini_gl.png"]
   },
   {
-    "marca": "Volkswagen",
+    "marca": "VOLKSWAGEN",
     "tipo": "T-Cross Sense",
     "localizacao": "De: R$ 119.990,00",
     "valor": "R$ 101.791,00",
     "imagens": ["images/vw/t_cross_sense.png"]
   },
   {
-    "marca": "Volkswagen",
+    "marca": "VOLKSWAGEN",
     "tipo": "New T-Cross Sense",
     "localizacao": "De: R$ 119.990,00",
     "valor": "R$ 101.792,00",
@@ -140,11 +161,25 @@
     "imagens": ["images/nissan/versa_advance.png"]
   },
   {
-    "marca": "Chevrolet",
+    "marca": "CHEVROLET",
     "tipo": "Tracker",
     "localizacao": "De: R$ 119.900,00",
     "valor": "R$ 105.862,00",
     "imagens": ["images/chevrolet/tracker.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "tipo": "Spin AT",
+    "localizacao": "De: R$ 119.990,00",
+    "valor": "R$ 104.890,00",
+    "imagens": ["images/chevrolet/spin_at.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "tipo": "Polo Highline",
+    "localizacao": "De: R$ 134.490,00",
+    "valor": "R$ 111.525,00",
+    "imagens": ["images/vw/polo_highline.png"]
   },
   {
     "marca": "JEEP",
@@ -182,7 +217,7 @@
     "imagens": ["images/honda/city_ex.png"]
   },
   {
-    "marca": "Volkswagen",
+    "marca": "VOLKSWAGEN",
     "tipo": "Tera High",
     "localizacao": "De: R$ 141.890,00",
     "valor": "R$ 123.106,00",
@@ -201,6 +236,20 @@
     "localizacao": "De: R$ 159.590,00",
     "valor": "R$ 123.622,40",
     "imagens": ["images/renault/duster_iconic.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "tipo": "Nivus Comfortline",
+    "localizacao": "De: R$ 152.990,00",
+    "valor": "R$ 124.290,00",
+    "imagens": ["images/vw/nivus_comfortline.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "tipo": "Virtus Highline",
+    "localizacao": "De: R$ 158.990,00",
+    "valor": "R$ 126.256,00",
+    "imagens": ["images/vw/virtus_highline.png"]
   },
   {
     "marca": "HYUNDAI",
@@ -250,6 +299,13 @@
     "localizacao": "De: R$ 169.990,00",
     "valor": "R$ 137.499,00",
     "imagens": ["images/jeep/compass_sport.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "tipo": "Spin LTZ",
+    "localizacao": "De: R$ 150.990,00",
+    "valor": "R$ 140.490,00",
+    "imagens": ["images/chevrolet/spin_ltz.png"]
   },
   {
     "marca": "NISSAN",
