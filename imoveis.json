@@ -77,6 +77,20 @@
     "imagens": ["images/fiat/pulse_drive.png"]
   },
   {
+    "marca": "CITROEN",
+    "tipo": "Basatl FEEL",
+    "localizacao": "De: R$ 119.990,00",
+    "valor": "R$ 94.270,00",
+    "imagens": ["images/citroen/basalt_feel.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "tipo": "Aircross FEEL",
+    "localizacao": "De: R$ 111.751,00",
+    "valor": "R$ 95.833,00",
+    "imagens": ["images/citroen/aircross_feel.png"]
+  },
+  {
     "marca": "PEUGEOT",
     "tipo": "208 Active",
     "localizacao": "De: R$ 113.990,00",
@@ -175,6 +189,13 @@
     "imagens": ["images/chevrolet/spin_at.png"]
   },
   {
+    "marca": "CITROEN",
+    "tipo": "Aircross 7 FEEL",
+    "localizacao": "De: R$ 126.990,00",
+    "valor": "R$ 109.136,00",
+    "imagens": ["images/citroen/aircross_feel.png"]
+  },
+  {
     "marca": "VOLKSWAGEN",
     "tipo": "Polo Highline",
     "localizacao": "De: R$ 134.490,00",
@@ -201,6 +222,13 @@
     "localizacao": "De: R$ 150.190,00",
     "valor": "R$ 120.990,00",
     "imagens": ["images/nissan/kicks_play_advance.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "tipo": "Aircross 7 XTR",
+    "localizacao": "De: R$ 152.990,00",
+    "valor": "R$ 121.477,00",
+    "imagens": ["images/citroen/aircross_xtr.png"]
   },
   {
     "marca": "NISSAN",
@@ -254,8 +282,8 @@
   {
     "marca": "HYUNDAI",
     "tipo": "CRETA",
-    "localizacao": "De: R$ 151.790,00",
-    "valor": "R$ 127.246,00",
+    "localizacao": "De: R$ 154.990,00",
+    "valor": "R$ 127.387,00",
     "imagens": ["images/hyundai/creta.png"]
   },
   {
