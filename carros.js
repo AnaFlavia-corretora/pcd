@@ -60,17 +60,32 @@ function calculateDesconto(carro) {
 
 /**
  * Calcula o percentual de desconto: (Desconto / Preço Público) * 100.
- * @param {Object} carro - O objeto do imóvel.
- * @returns {number} O percentual de desconto (ex: 15.5 para 15.5%).
+ * Retorna o percentual como string com 2 casas decimais para exibição.
+ * @param {Object} carro - O objeto do carro.
+ * @returns {string} O percentual de desconto (ex: "15.50").
  */
 function calculateDescontoPercentage(carro) {
   const desconto = calculateDesconto(carro);
   const precoPublico = cleanAndParseValue(carro.preco_publico || "R$ 0,00");
 
-  // Evita divisão por zero
   if (precoPublico > 0) {
     // Multiplica por 100 e limita a 2 casas decimais
     return ((desconto / precoPublico) * 100).toFixed(2);
+  }
+  return "0.00"; // Retorna string
+}
+
+/**
+ * NOVO: Calcula o percentual de desconto (número) para fins de ordenação.
+ * @param {Object} carro - O objeto do carro.
+ * @returns {number} O percentual de desconto (ex: 15.5).
+ */
+function calculateDescontoPercentageNumeric(carro) {
+  const desconto = calculateDesconto(carro);
+  const precoPublico = cleanAndParseValue(carro.preco_publico || "R$ 0,00");
+
+  if (precoPublico > 0) {
+    return (desconto / precoPublico) * 100;
   }
   return 0;
 }
@@ -90,7 +105,7 @@ function formatCurrency(value) {
 /**
  * Ordena a lista de imóveis com base na opção selecionada.
  * @param {Array<Object>} data - O array de objetos dos imóveis.
- * @param {string} sortOption - A opção de ordenação ('valor_asc', 'marca_asc', 'desconto_desc' ou 'default').
+ * @param {string} sortOption - A opção de ordenação ('valor_asc', 'marca_asc', 'desconto_desc', 'desconto_percentual_desc' ou 'default').
  * @returns {Array<Object>} O array de imóveis ordenado.
  */
 function sortImoveis(data, sortOption) {
@@ -115,7 +130,14 @@ function sortImoveis(data, sortOption) {
       sortedData.sort((a, b) => {
         const descontoA = calculateDesconto(a);
         const descontoB = calculateDesconto(b);
-        return descontoB - descontoA; // NOVO: Ordem decrescente de desconto (maior para o menor)
+        return descontoB - descontoA; // Ordem decrescente de desconto (R$)
+      });
+      break;
+    case "desconto_percentual_desc": // NOVO CASE
+      sortedData.sort((a, b) => {
+        const percentualA = calculateDescontoPercentageNumeric(a); // Usa a nova função
+        const percentualB = calculateDescontoPercentageNumeric(b); // Usa a nova função
+        return percentualB - percentualA; // Ordem decrescente de desconto (%)
       });
       break;
     case "default":
@@ -128,6 +150,8 @@ function sortImoveis(data, sortOption) {
 
 // Arquivo: carros.js (Funções cleanAndParseValue, calculateDesconto, formatCurrency e sortImoveis permanecem as mesmas)
 // ...
+
+// ... (funções calculateDesconto, formatCurrency, etc. permanecem as mesmas)
 
 /**
  * Renderiza os cartões dos imóveis no container, adicionando separadores por marca se necessário.
@@ -144,8 +168,11 @@ function renderImoveis(carros, currentSortOption) {
   container.innerHTML = ""; // Limpa o conteúdo existente
 
   const isSortedByMarca = currentSortOption === "marca_asc";
-  // NOVO: Verifica se a ordenação atual é por Desconto
-  const isSortedByDesconto = currentSortOption === "desconto_desc";
+  // Verifica se a ordenação atual é por Desconto (R$) OU Desconto (%)
+  const shouldShowDiscount =
+    currentSortOption === "desconto_desc" ||
+    currentSortOption === "desconto_percentual_desc";
+
   let lastMarca = null; // Usado para rastrear a marca anterior
 
   carros.forEach((carro) => {
@@ -168,18 +195,18 @@ function renderImoveis(carros, currentSortOption) {
       ? `${carro.modelo}`
       : `${carro.marca} ${carro.modelo}`;
 
-    // NOVO: Adiciona o HTML do desconto APENAS se a ordenação for por Desconto
     let discountHTML = "";
 
-    if (isSortedByDesconto) {
+    // 🚀 LÓGICA DE EXIBIÇÃO: SÓ GERA O HTML SE shouldShowDiscount FOR TRUE
+    if (shouldShowDiscount) {
       const descontoValue = calculateDesconto(carro);
       const descontoFormatted = formatCurrency(descontoValue);
 
-      // NOVO: Calcula o percentual
+      // Calcula o percentual
       const descontoPercentual = calculateDescontoPercentage(carro);
       discountHTML = `
             <div class="carro-details">
-                <div class="carro-location">
+                <div class="carro-location discount-info">
                     Desconto: ${descontoFormatted} (${descontoPercentual}%)
                 </div>
             </div>
