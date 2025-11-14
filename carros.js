@@ -1,13 +1,13 @@
-// Arquivo: imoveis.js
+// Arquivo: carros.js
 
 let imoveisData = [];
 
 /**
- * Converte a string de valor para um float para ordenação/cálculo.
+ * Converte a string de preco_pcd para um float para ordenação/cálculo.
  * Torna a limpeza mais robusta removendo todos os caracteres não numéricos,
  * exceto vírgulas e pontos, e padronizando o decimal.
- * @param {string} valorString - O valor em formato string (ex: "R$ 74.350,00").
- * @returns {number} O valor numérico.
+ * @param {string} valorString - O preco_pcd em formato string (ex: "R$ 74.350,00").
+ * @returns {number} O preco_pcd numérico.
  */
 function cleanAndParseValue(valorString) {
   if (!valorString) return 0; // Trata valores nulos ou vazios para evitar NaN
@@ -40,16 +40,16 @@ function cleanAndParseValue(valorString) {
 }
 
 /**
- * Calcula o Desconto: localização (Preço Teto/Público) - valor (Preço PCD).
- * @param {Object} imovel - O objeto do imóvel.
- * @returns {number} O valor do desconto.
+ * Calcula o Desconto: localização (Preço Teto/Público) - preco_pcd (Preço PCD).
+ * @param {Object} carro - O objeto do imóvel.
+ * @returns {number} O preco_pcd do desconto.
  */
-function calculateDesconto(imovel) {
-  // Presumindo que 'localizacao' e 'valor' são as colunas mencionadas
-  // e que 'localizacao' representa o preço público e 'valor' o preço final.
-  // Garantimos que 'localizacao' e 'valor' existem para evitar erros.
-  const precoPublico = cleanAndParseValue(imovel.localizacao || "R$ 0,00");
-  const precoPCD = cleanAndParseValue(imovel.valor || "R$ 0,00");
+function calculateDesconto(carro) {
+  // Presumindo que 'preco_publico' e 'preco_pcd' são as colunas mencionadas
+  // e que 'preco_publico' representa o preço público e 'preco_pcd' o preço final.
+  // Garantimos que 'preco_publico' e 'preco_pcd' existem para evitar erros.
+  const precoPublico = cleanAndParseValue(carro.preco_publico || "R$ 0,00");
+  const precoPCD = cleanAndParseValue(carro.preco_pcd || "R$ 0,00");
 
   // Adiciona uma verificação extra para garantir que ambos são números antes de subtrair
   if (typeof precoPublico === "number" && typeof precoPCD === "number") {
@@ -60,12 +60,12 @@ function calculateDesconto(imovel) {
 
 /**
  * Calcula o percentual de desconto: (Desconto / Preço Público) * 100.
- * @param {Object} imovel - O objeto do imóvel.
+ * @param {Object} carro - O objeto do imóvel.
  * @returns {number} O percentual de desconto (ex: 15.5 para 15.5%).
  */
-function calculateDescontoPercentage(imovel) {
-  const desconto = calculateDesconto(imovel);
-  const precoPublico = cleanAndParseValue(imovel.localizacao || "R$ 0,00");
+function calculateDescontoPercentage(carro) {
+  const desconto = calculateDesconto(carro);
+  const precoPublico = cleanAndParseValue(carro.preco_publico || "R$ 0,00");
 
   // Evita divisão por zero
   if (precoPublico > 0) {
@@ -77,8 +77,8 @@ function calculateDescontoPercentage(imovel) {
 
 /**
  * Formata um número como moeda brasileira (R$ X.XXX,XX).
- * @param {number} value - O valor numérico.
- * @returns {string} O valor formatado.
+ * @param {number} value - O preco_pcd numérico.
+ * @returns {string} O preco_pcd formatado.
  */
 function formatCurrency(value) {
   return value.toLocaleString("pt-BR", {
@@ -100,8 +100,8 @@ function sortImoveis(data, sortOption) {
   switch (sortOption) {
     case "valor_asc":
       sortedData.sort((a, b) => {
-        const valorA = cleanAndParseValue(a.valor);
-        const valorB = cleanAndParseValue(b.valor);
+        const valorA = cleanAndParseValue(a.preco_pcd);
+        const valorB = cleanAndParseValue(b.preco_pcd);
         return valorA - valorB; // Ordem crescente numérica
       });
       break;
@@ -126,18 +126,18 @@ function sortImoveis(data, sortOption) {
   return sortedData;
 }
 
-// Arquivo: imoveis.js (Funções cleanAndParseValue, calculateDesconto, formatCurrency e sortImoveis permanecem as mesmas)
+// Arquivo: carros.js (Funções cleanAndParseValue, calculateDesconto, formatCurrency e sortImoveis permanecem as mesmas)
 // ...
 
 /**
  * Renderiza os cartões dos imóveis no container, adicionando separadores por marca se necessário.
- * @param {Array<Object>} imoveis - O array de imóveis a ser exibido (já ordenado).
+ * @param {Array<Object>} carros - O array de imóveis a ser exibido (já ordenado).
  * @param {string} currentSortOption - A opção de ordenação atual.
  */
-function renderImoveis(imoveis, currentSortOption) {
-  const container = document.getElementById("lista-imoveis");
+function renderImoveis(carros, currentSortOption) {
+  const container = document.getElementById("lista-carros");
   if (!container) {
-    console.error("Elemento #lista-imoveis não encontrado.");
+    console.error("Elemento #lista-carros não encontrado.");
     return;
   }
 
@@ -148,13 +148,13 @@ function renderImoveis(imoveis, currentSortOption) {
   const isSortedByDesconto = currentSortOption === "desconto_desc";
   let lastMarca = null; // Usado para rastrear a marca anterior
 
-  imoveis.forEach((imovel) => {
+  carros.forEach((carro) => {
     // Lógica de separação por marca (igual ao código anterior)
-    if (isSortedByMarca && imovel.marca !== lastMarca) {
+    if (isSortedByMarca && carro.marca !== lastMarca) {
       // 1. Cria o título da marca
       const marcaTitle = document.createElement("h2");
       marcaTitle.className = "marca-group-title";
-      marcaTitle.textContent = imovel.marca;
+      marcaTitle.textContent = carro.marca;
       container.appendChild(marcaTitle);
 
       // 2. Cria a linha separadora
@@ -165,21 +165,21 @@ function renderImoveis(imoveis, currentSortOption) {
 
     // Define o conteúdo do título do cartão
     const cardTitle = isSortedByMarca
-      ? `${imovel.tipo}`
-      : `${imovel.marca} ${imovel.tipo}`;
+      ? `${carro.modelo}`
+      : `${carro.marca} ${carro.modelo}`;
 
     // NOVO: Adiciona o HTML do desconto APENAS se a ordenação for por Desconto
     let discountHTML = "";
 
     if (isSortedByDesconto) {
-      const descontoValue = calculateDesconto(imovel);
+      const descontoValue = calculateDesconto(carro);
       const descontoFormatted = formatCurrency(descontoValue);
 
       // NOVO: Calcula o percentual
-      const descontoPercentual = calculateDescontoPercentage(imovel);
+      const descontoPercentual = calculateDescontoPercentage(carro);
       discountHTML = `
-            <div class="imovel-details">
-                <div class="imovel-location">
+            <div class="carro-details">
+                <div class="carro-location">
                     Desconto: ${descontoFormatted} (${descontoPercentual}%)
                 </div>
             </div>
@@ -188,27 +188,27 @@ function renderImoveis(imoveis, currentSortOption) {
 
     // Lógica de renderização do cartão
     const card = document.createElement("div");
-    card.className = "imovel-card";
+    card.className = "carro-card";
     card.innerHTML = `
-          <img src="${imovel.imagens[0]}" class="imovel-card-image">
-          <div class="imovel-card-content">
+          <img src="${carro.imagens[0]}" class="carro-card-image">
+          <div class="carro-card-content">
             <h3>${cardTitle}</h3>
-            <div class="imovel-details">
-              <div class="imovel-location">
-                ${imovel.localizacao}
+            <div class="carro-details">
+              <div class="carro-location">
+                ${carro.preco_publico}
               </div>
             </div>
             
             ${discountHTML} 
             
-            <div class="imovel-price">${imovel.valor}</div>
+            <div class="carro-price">${carro.preco_pcd}</div>
           </div>
-          <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="imovel-button">WhatsApp</a>
+          <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="carro-button">WhatsApp</a>
         `;
     container.appendChild(card);
 
     // Atualiza a última marca
-    lastMarca = imovel.marca;
+    lastMarca = carro.marca;
   });
 }
 
@@ -249,16 +249,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Lógica de Carregamento e Ordenação (já existente)
-  fetch("imoveis.json")
+  fetch("carros.json")
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
       return res.json();
     })
-    .then((imoveis) => {
+    .then((carros) => {
       // Armazena os dados originais
-      imoveisData = imoveis;
+      imoveisData = carros;
 
       // Pega a opção inicial e ordena/renderiza
       const initialSortOption = sortSelect ? sortSelect.value : "default";

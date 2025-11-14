@@ -1,5 +1,5 @@
 let slideIndex = 0;
-let slides, thumbs; // Estas variáveis serão inicializadas pelo detalhes-imovel.js
+let slides, thumbs; // Estas variáveis serão inicializadas pelo detalhes-carro.js
 
 /**
  * Exibe o slide do carrossel correspondente ao índice `n`.
@@ -65,7 +65,7 @@ let currentLightboxIndex = 0;
  */
 function openLightbox(index) {
   // CRUCIAL: Popula lightboxImages AQUI para garantir que ele contenha as imagens
-  // atualmente presentes no carrossel (que são adicionadas dinamicamente pelo detalhes-imovel.js).
+  // atualmente presentes no carrossel (que são adicionadas dinamicamente pelo detalhes-carro.js).
   lightboxImages = Array.from(
     document.querySelectorAll("#detalhe-carousel img.main")
   );
@@ -117,9 +117,9 @@ function prevLightbox() {
 }
 
 // O listener DOMContentLoaded original do script.js não é mais necessário
-// para inicializar slides/thumbs, pois detalhes-imovel.js fará isso APÓS carregar o conteúdo.
-// No entanto, é importante que este script seja carregado DEPOIS do detalhes-imovel.js
+// para inicializar slides/thumbs, pois detalhes-carro.js fará isso APÓS carregar o conteúdo.
+// No entanto, é importante que este script seja carregado DEPOIS do detalhes-carro.js
 // na página de detalhes para que as funções globais (openLightbox, etc.) estejam disponíveis.
-// A inicialização de slides e thumbs para o carrossel é feita em detalhes-imovel.js.
-// A lógica de tornar as imagens clicáveis para o lightbox é integrada no detalhes-imovel.js
+// A inicialização de slides e thumbs para o carrossel é feita em detalhes-carro.js.
+// A lógica de tornar as imagens clicáveis para o lightbox é integrada no detalhes-carro.js
 // ao criar as imagens do carrossel.

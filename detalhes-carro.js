@@ -4,29 +4,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!imovelId) {
     console.error("ID do imóvel não encontrado na URL.");
-    document.getElementById("imovel-detalhes-container").innerHTML =
+    document.getElementById("carro-detalhes-container").innerHTML =
       "<p>Imóvel não encontrado. Por favor, retorne à página inicial.</p>";
     return;
   }
 
-  fetch("imoveis.json")
+  fetch("carros.json")
     .then((res) => res.json())
-    .then((imoveis) => {
-      const imovel = imoveis.find((item) => item.id === imovelId);
+    .then((carros) => {
+      const carro = carros.find((item) => item.id === imovelId);
 
-      if (!imovel) {
+      if (!carro) {
         console.error("Imóvel com ID " + imovelId + " não encontrado.");
-        document.getElementById("imovel-detalhes-container").innerHTML =
+        document.getElementById("carro-detalhes-container").innerHTML =
           "<p>Imóvel não encontrado. Por favor, retorne à página inicial.</p>";
         return;
       }
 
       // Preencher informações gerais
       document.getElementById("detalhe-titulo").textContent =
-        imovel.titulo + " por " + imovel.valor;
+        carro.titulo + " por " + carro.preco_pcd;
       document.getElementById(
-        "detalhe-localizacao"
-      ).textContent = `${imovel.localizacao} - ${imovel.cidade}`;
+        "detalhe-preco_publico"
+      ).textContent = `${carro.preco_publico} - ${carro.cidade}`;
 
       // Preencher carrossel de imagens
       const carouselContainer = document.getElementById("detalhe-carousel");
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       nextButton.textContent = "❯";
       carouselContainer.appendChild(nextButton);
 
-      imovel.imagens.forEach((imgSrc, index) => {
+      carro.imagens.forEach((imgSrc, index) => {
         const img = document.createElement("img");
         img.className = "main";
         img.src = imgSrc;
@@ -69,31 +69,31 @@ document.addEventListener("DOMContentLoaded", () => {
       showSlide(0); // Mostra o primeiro slide
 
       // Preencher informações detalhadas (ícones e texto)
-      document.getElementById("detalhe-area").textContent = imovel.area;
-      document.getElementById("detalhe-quartos").textContent = imovel.quartos;
+      document.getElementById("detalhe-area").textContent = carro.area;
+      document.getElementById("detalhe-quartos").textContent = carro.quartos;
       document.getElementById("detalhe-banheiros").textContent =
-        imovel.banheiros;
-      document.getElementById("detalhe-garagem").textContent = imovel.garagem;
+        carro.banheiros;
+      document.getElementById("detalhe-garagem").textContent = carro.garagem;
       // Adiciona suítes se existir
       const suitesElement = document.getElementById("detalhe-suites");
-      if (imovel.suites !== undefined && imovel.suites !== null) {
-        suitesElement.textContent = imovel.suites;
+      if (carro.suites !== undefined && carro.suites !== null) {
+        suitesElement.textContent = carro.suites;
       } else {
-        // Se não houver suítes, você pode esconder o item ou definir um valor padrão
+        // Se não houver suítes, você pode esconder o item ou definir um preco_pcd padrão
         suitesElement.closest(".info-item").style.display = "none";
       }
 
       // Preencher descrição longa
       const descricaoContainer = document.getElementById("detalhe-descricao");
       descricaoContainer.innerHTML = ""; // Limpa conteúdo existente
-      imovel.descricao_longa.forEach((paragrafo) => {
+      carro.descricao_longa.forEach((paragrafo) => {
         const p = document.createElement("p");
         p.textContent = paragrafo;
         descricaoContainer.appendChild(p);
       });
 
       // Atualizar link do WhatsApp
-      document.getElementById("detalhe-whatsapp").href = imovel.whatsapp_link;
+      document.getElementById("detalhe-whatsapp").href = carro.whatsapp_link;
     })
     .catch((error) =>
       console.error("Erro ao carregar detalhes do imóvel:", error)

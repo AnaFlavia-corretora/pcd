@@ -54,7 +54,7 @@ header .logo-link {
   padding: 0 20px;
 }
 
-.imovel-card {
+.carro-card {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,7 @@ header .logo-link {
   flex-direction: column;
 }
 
-.imovel-card-image {
+.carro-card-image {
   width: 100%;
   height: 250px;
   object-fit: cover;
@@ -74,7 +74,7 @@ header .logo-link {
   border-top-right-radius: 8px;
 }
 
-.imovel-card-content {
+.carro-card-content {
   padding: 20px;
   text-align: center;
   display: flex;
@@ -82,43 +82,43 @@ header .logo-link {
   gap: 15px;
 }
 
-.imovel-card-content h3 {
+.carro-card-content h3 {
   margin: 0;
   font-size: 1.5em;
   color: #333;
   font-weight: bold;
 }
 
-.imovel-details {
+.carro-details {
   text-align: center; /* Mantém o alinhamento à esquerda para detalhes */
   margin-bottom: 10px;
 }
 
-.imovel-details p {
+.carro-details p {
   margin: 0;
   font-size: 0.9em;
   color: #666666;
 }
 
-.imovel-details .cod {
+.carro-details .cod {
   font-weight: bold;
 }
 
-.imovel-location {
+.carro-location {
   margin-top: 5px;
   font-size: 1em;
   color: #666;
   font-weight: bold;
 }
 
-.imovel-location span {
+.carro-location span {
   display: block;
   font-weight: normal;
   font-size: 0.9em;
   color: #666;
 }
 
-.imovel-icons {
+.carro-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -127,7 +127,7 @@ header .logo-link {
   border-bottom: 1px solid #eee;
 }
 
-.imovel-icon-item {
+.carro-icon-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,18 +136,18 @@ header .logo-link {
   text-align: center;
 }
 
-.imovel-icon-item img {
+.carro-icon-item img {
   width: 30px;
   height: 30px;
   margin-bottom: 5px;
 }
 
-.imovel-icon-item p {
+.carro-icon-item p {
   margin: 0;
   font-size: 0.85em;
 }
 
-.imovel-price {
+.carro-price {
   font-size: 1.8em;
   color: #cc0000;
   font-weight: bold;
@@ -155,7 +155,7 @@ header .logo-link {
   margin-bottom: 20px;
 }
 
-.imovel-button {
+.carro-button {
   display: block;
   width: calc(100% - 40px);
   padding: 15px;
@@ -171,7 +171,7 @@ header .logo-link {
   text-align: center;
 }
 
-.imovel-button:hover {
+.carro-button:hover {
   background-color: #8c8c8c;
 }
 
@@ -281,8 +281,8 @@ header .logo-link {
   right: 20px;
 }
 
-/* Estilos para a página de detalhes (detalhes-imovel.html) */
-main#imovel-detalhes-container {
+/* Estilos para a página de detalhes (detalhes-carro.html) */
+main#carro-detalhes-container {
   max-width: 900px; /* Largura máxima para o conteúdo de detalhes */
   margin: 20px auto; /* Centraliza o contêiner principal */
   padding: 20px;
