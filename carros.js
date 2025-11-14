@@ -85,7 +85,10 @@ function calculateDescontoPercentageNumeric(carro) {
   const precoPublico = cleanAndParseValue(carro.preco_publico || "R$ 0,00");
 
   if (precoPublico > 0) {
-    return (desconto / precoPublico) * 100;
+    const percentage = (desconto / precoPublico) * 100;
+    // CORREÇÃO: Arredonda o valor para evitar problemas de precisão
+    // de ponto flutuante (floating point errors) na ordenação em servidores.
+    return Math.round(percentage * 1000) / 1000; // Limita a 3 casas decimais
   }
   return 0;
 }
