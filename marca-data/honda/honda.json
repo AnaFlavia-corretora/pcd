@@ -1,0 +1,44 @@
+[
+  {
+    "marca": "HONDA",
+    "modelo": "CITY LX",
+    "preco_publico": "De: R$ 119.700,00",
+    "preco_pcd": "R$ 107.251,00",
+    "imagens": ["marca-data/honda/city_lx.png"]
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "CITY EX",
+    "preco_publico": "De: R$ 136.200,00",
+    "preco_pcd": "R$ 122.225,80",
+    "imagens": ["marca-data/honda/city_ex.png"]
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "CITY EXL",
+    "preco_publico": "De: R$ 143.500,00",
+    "preco_pcd": "R$ 129.674,30",
+    "imagens": ["marca-data/honda/city_exl.png"]
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "CITY TOURING",
+    "preco_publico": "De: R$ 153.000,00",
+    "preco_pcd": "R$ 137.302,20",
+    "imagens": ["marca-data/honda/city_touring.png"]
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "HRV EX",
+    "preco_publico": "De: R$ 165.700,00",
+    "preco_pcd": "R$ 148.699,00",
+    "imagens": ["marca-data/honda/hrv_ex.png"]
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "HRV EXL",
+    "preco_publico": "De: R$ 173.400,00",
+    "preco_pcd": "R$ 155.609,00",
+    "imagens": ["marca-data/honda/hrv_exl.png"]
+  }
+]

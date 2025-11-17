@@ -4,447 +4,447 @@
     "modelo": "C3 FEEL",
     "preco_publico": "De: R$ 93.990,00",
     "preco_pcd": "R$ 74.350,00",
-    "imagens": ["images/citroen/c3_feel.png"]
+    "imagens": ["marca-data/citroen/c3_feel.png"]
   },
   {
     "marca": "PEUGEOT",
     "modelo": "208 Style",
     "preco_publico": "De: R$ 105.990,00",
     "preco_pcd": "R$ 81.975,00",
-    "imagens": ["images/peugeot/208.png"]
+    "imagens": ["marca-data/peugeot/208.png"]
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Onix 1.0",
     "preco_publico": "De: R$ 99.990,00",
     "preco_pcd": "R$ 84.990,00",
-    "imagens": ["images/chevrolet/onix.png"]
+    "imagens": ["marca-data/chevrolet/onix.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Argo Trekking",
     "preco_publico": "De: R$ 110.480,00",
     "preco_pcd": "R$ 86.990,00",
-    "imagens": ["images/fiat/argo.png"]
+    "imagens": ["marca-data/fiat/argo.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Polo Sense",
     "preco_publico": "De: R$ 108.490,00",
     "preco_pcd": "R$ 89.399,00",
-    "imagens": ["images/vw/polo_sense.png"]
+    "imagens": ["marca-data/vw/polo_sense.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Virtus Sense",
     "preco_publico": "De: R$ 110.990,00",
     "preco_pcd": "R$ 89.922,00",
-    "imagens": ["images/vw/virtus_sense.png"]
-  },
-  {
-    "marca": "NISSAN",
-    "modelo": "Kicks Active",
-    "preco_publico": "De: R$ 123.690,00",
-    "preco_pcd": "R$ 89.990,00",
-    "imagens": ["images/nissan/kicks_play_active.png"]
+    "imagens": ["marca-data/vw/virtus_sense.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Cronos 1.3 Drive",
     "preco_publico": "De: R$ 117.480,00",
     "preco_pcd": "R$ 90.904,00",
-    "imagens": ["images/fiat/cronos.png"]
+    "imagens": ["marca-data/fiat/cronos.png"]
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Onix AT",
     "preco_publico": "De: R$ 112.990,00",
     "preco_pcd": "R$ 90.990,00",
-    "imagens": ["images/chevrolet/onix_at.png"]
+    "imagens": ["marca-data/chevrolet/onix_at.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "Versa Sense",
     "preco_publico": "De: R$ 117.990,00",
-    "preco_pcd": "R$ 90.990,00",
-    "imagens": ["images/nissan/versa_sense.png"]
+    "preco_pcd": "R$ 92.990,00",
+    "imagens": ["marca-data/nissan/versa_sense.png"]
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "Kicks Active Plus",
+    "preco_publico": "De: R$ 117.990,00",
+    "preco_pcd": "R$ 91.990,00",
+    "imagens": ["marca-data/nissan/kicks_play_active.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Pulse 1.3 Drive",
     "preco_publico": "De: R$ 112.990,00",
     "preco_pcd": "R$ 93.500,00",
-    "imagens": ["images/fiat/pulse_drive.png"]
+    "imagens": ["marca-data/fiat/pulse_drive.png"]
   },
   {
     "marca": "CITROEN",
     "modelo": "Basatl FEEL",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 94.270,00",
-    "imagens": ["images/citroen/basalt_feel.png"]
+    "imagens": ["marca-data/citroen/basalt_feel.png"]
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross FEEL",
     "preco_publico": "De: R$ 111.751,00",
     "preco_pcd": "R$ 95.833,00",
-    "imagens": ["images/citroen/aircross_feel.png"]
+    "imagens": ["marca-data/citroen/aircross_feel.png"]
   },
   {
     "marca": "PEUGEOT",
     "modelo": "208 Active",
     "preco_publico": "De: R$ 113.990,00",
     "preco_pcd": "R$ 97.493,00",
-    "imagens": ["images/peugeot/208_active.png"]
+    "imagens": ["marca-data/peugeot/208_active.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Pulse Turbo",
     "preco_publico": "De: R$ 116.990,00",
     "preco_pcd": "R$ 98.900,00",
-    "imagens": ["images/fiat/pulse_drive.png"]
+    "imagens": ["marca-data/fiat/pulse_drive.png"]
   },
   {
     "marca": "BYD",
     "modelo": "DOLPHIN MINI GL",
     "preco_publico": "De: R$ 118.990,00",
     "preco_pcd": "R$ 99.990,00",
-    "imagens": ["images/byd/dolphin_mini_gl.png"]
+    "imagens": ["marca-data/byd/dolphin_mini_gl.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "T-Cross Sense",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 101.791,00",
-    "imagens": ["images/vw/t_cross_sense.png"]
+    "imagens": ["marca-data/vw/t_cross_sense.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "New T-Cross Sense",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 101.792,00",
-    "imagens": ["images/vw/new_t_cross_sense.png"]
+    "imagens": ["marca-data/vw/new_t_cross_sense.png"]
   },
   {
     "marca": "JEEP",
     "modelo": "Renegade Sport",
     "preco_publico": "De: R$ 118.290,00",
     "preco_pcd": "R$ 101.799,00",
-    "imagens": ["images/jeep/renegade_sport.png"]
+    "imagens": ["marca-data/jeep/renegade_sport.png"]
   },
   {
     "marca": "BYD",
     "modelo": "DOLPHIN MINI GS",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 102.990,00",
-    "imagens": ["images/byd/dolphin_mini_gs.png"]
+    "imagens": ["marca-data/byd/dolphin_mini_gs.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Fastback Turbo 200",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 105.635,00",
-    "imagens": ["images/fiat/fastback_audace.png"]
+    "imagens": ["marca-data/fiat/fastback_audace.png"]
   },
   {
     "marca": "RENAULT",
     "modelo": "Kardian Authentic",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 105.867,39",
-    "imagens": ["images/renault/kardian_authentic.png"]
-  },
-  {
-    "marca": "NISSAN",
-    "modelo": "Kicks Sense",
-    "preco_publico": "De: R$ 131.590,00",
-    "preco_pcd": "R$ 106.990,00",
-    "imagens": ["images/nissan/kicks_play_sense.png"]
+    "imagens": ["marca-data/renault/kardian_authentic.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "CITY LX",
     "preco_publico": "De: R$ 119.700,00",
     "preco_pcd": "R$ 107.251,00",
-    "imagens": ["images/honda/city_lx.png"]
+    "imagens": ["marca-data/honda/city_lx.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "Versa Advance",
     "preco_publico": "De: R$ 127.290,00",
-    "preco_pcd": "R$ 107.490,00",
-    "imagens": ["images/nissan/versa_advance.png"]
+    "preco_pcd": "R$ 109.990,00",
+    "imagens": ["marca-data/nissan/versa_advance.png"]
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Tracker",
     "preco_publico": "De: R$ 119.900,00",
     "preco_pcd": "R$ 105.862,00",
-    "imagens": ["images/chevrolet/tracker.png"]
+    "imagens": ["marca-data/chevrolet/tracker.png"]
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Spin AT",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 104.890,00",
-    "imagens": ["images/chevrolet/spin_at.png"]
+    "imagens": ["marca-data/chevrolet/spin_at.png"]
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross 7 FEEL",
     "preco_publico": "De: R$ 126.990,00",
     "preco_pcd": "R$ 109.136,00",
-    "imagens": ["images/citroen/aircross_feel.png"]
+    "imagens": ["marca-data/citroen/aircross_feel.png"]
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "Kicks Sense",
+    "preco_publico": "De: R$ 131.590,00",
+    "preco_pcd": "R$ 109.990,00",
+    "imagens": ["marca-data/nissan/kicks_play_sense.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Polo Highline",
     "preco_publico": "De: R$ 134.490,00",
     "preco_pcd": "R$ 111.525,00",
-    "imagens": ["images/vw/polo_highline.png"]
+    "imagens": ["marca-data/vw/polo_highline.png"]
   },
   {
     "marca": "JEEP",
     "modelo": "Renegade Altitude",
     "preco_publico": "De: R$ 142.990,00",
     "preco_pcd": "R$ 115.699,00",
-    "imagens": ["images/jeep/renegade_altitude.png"]
+    "imagens": ["marca-data/jeep/renegade_altitude.png"]
   },
   {
     "marca": "RENAULT",
     "modelo": "Duster Intense",
     "preco_publico": "De: R$ 149.490,00",
     "preco_pcd": "R$ 115.798,69",
-    "imagens": ["images/renault/duster_intense.png"]
+    "imagens": ["marca-data/renault/duster_intense.png"]
   },
   {
     "marca": "NISSAN",
-    "modelo": "Kicks Advance",
+    "modelo": "Kicks Advance Plus",
     "preco_publico": "De: R$ 150.190,00",
-    "preco_pcd": "R$ 120.990,00",
-    "imagens": ["images/nissan/kicks_play_advance.png"]
+    "preco_pcd": "R$ 123.990,00",
+    "imagens": ["marca-data/nissan/kicks_play_advance.png"]
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross 7 XTR",
     "preco_publico": "De: R$ 152.990,00",
     "preco_pcd": "R$ 121.477,00",
-    "imagens": ["images/citroen/aircross_xtr.png"]
+    "imagens": ["marca-data/citroen/aircross_xtr.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "Versa Exclusive",
     "preco_publico": "De: R$ 145.390,00",
-    "preco_pcd": "R$ 121.490,00",
-    "imagens": ["images/nissan/versa_exclusive.png"]
+    "preco_pcd": "R$ 123.990,00",
+    "imagens": ["marca-data/nissan/versa_exclusive.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "CITY EX",
     "preco_publico": "De: R$ 136.200,00",
     "preco_pcd": "R$ 122.225,80",
-    "imagens": ["images/honda/city_ex.png"]
+    "imagens": ["marca-data/honda/city_ex.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Tera High",
     "preco_publico": "De: R$ 141.890,00",
     "preco_pcd": "R$ 123.106,00",
-    "imagens": ["images/vw/tera.png"]
+    "imagens": ["marca-data/vw/tera.png"]
   },
   {
     "marca": "PEUGEOT",
     "modelo": "2008 Active",
     "preco_publico": "De: R$ 149.990,00",
     "preco_pcd": "R$ 123.277,00",
-    "imagens": ["images/peugeot/2008.png"]
+    "imagens": ["marca-data/peugeot/2008.png"]
   },
   {
     "marca": "RENAULT",
     "modelo": "Duster Iconic",
     "preco_publico": "De: R$ 159.590,00",
     "preco_pcd": "R$ 123.622,40",
-    "imagens": ["images/renault/duster_iconic.png"]
+    "imagens": ["marca-data/renault/duster_iconic.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Nivus Comfortline",
     "preco_publico": "De: R$ 152.990,00",
     "preco_pcd": "R$ 124.290,00",
-    "imagens": ["images/vw/nivus_comfortline.png"]
+    "imagens": ["marca-data/vw/nivus_comfortline.png"]
   },
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Virtus Highline",
     "preco_publico": "De: R$ 158.990,00",
     "preco_pcd": "R$ 126.256,00",
-    "imagens": ["images/vw/virtus_highline.png"]
+    "imagens": ["marca-data/vw/virtus_highline.png"]
   },
   {
     "marca": "HYUNDAI",
     "modelo": "CRETA",
     "preco_publico": "De: R$ 154.990,00",
     "preco_pcd": "R$ 127.387,00",
-    "imagens": ["images/hyundai/creta.png"]
+    "imagens": ["marca-data/hyundai/creta.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "CITY EXL",
     "preco_publico": "De: R$ 143.500,00",
     "preco_pcd": "R$ 129.674,30",
-    "imagens": ["images/honda/city_exl.png"]
+    "imagens": ["marca-data/honda/city_exl.png"]
   },
   {
     "marca": "CAOA",
     "modelo": "Tiggo 7 Sport",
     "preco_publico": "De: R$ 139.990,00",
     "preco_pcd": "R$ 131.870,00",
-    "imagens": ["images/caoa/tiggo_7_sport.png"]
+    "imagens": ["marca-data/caoa/tiggo_7_sport.png"]
   },
   {
     "marca": "BYD",
     "modelo": "KING GL",
     "preco_publico": "De: R$ 169.990,00",
     "preco_pcd": "R$ 132.090,00",
-    "imagens": ["images/byd/king_gl.png"]
+    "imagens": ["marca-data/byd/king_gl.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "SENTRA Advance",
     "preco_publico": "De: R$ 174.490,00",
     "preco_pcd": "R$ 136.490,00",
-    "imagens": ["images/nissan/sentra_advance.png"]
+    "imagens": ["marca-data/nissan/sentra_advance.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "CITY TOURING",
     "preco_publico": "De: R$ 153.000,00",
     "preco_pcd": "R$ 137.302,20",
-    "imagens": ["images/honda/city_touring.png"]
+    "imagens": ["marca-data/honda/city_touring.png"]
   },
   {
     "marca": "JEEP",
     "modelo": "Compass Sport",
     "preco_publico": "De: R$ 169.990,00",
     "preco_pcd": "R$ 137.499,00",
-    "imagens": ["images/jeep/compass_sport.png"]
+    "imagens": ["marca-data/jeep/compass_sport.png"]
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Spin LTZ",
     "preco_publico": "De: R$ 150.990,00",
     "preco_pcd": "R$ 140.490,00",
-    "imagens": ["images/chevrolet/spin_ltz.png"]
+    "imagens": ["marca-data/chevrolet/spin_ltz.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Sense",
     "preco_publico": "De: R$ 164.990,00",
     "preco_pcd": "R$ 141.990,00",
-    "imagens": ["images/nissan/novo_kicks_sense.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_sense.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Fastback Audace",
     "preco_publico": "De: R$ 160.990,00",
     "preco_pcd": "R$ 142.895,00",
-    "imagens": ["images/fiat/fastback_audace.png"]
+    "imagens": ["marca-data/fiat/fastback_audace.png"]
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla Cross XR",
     "preco_publico": "De: R$ 191.010,00",
     "preco_pcd": "R$ 144.651,00",
-    "imagens": ["images/toyota/corolla_cross_xr.png"]
+    "imagens": ["marca-data/toyota/corolla_cross_xr.png"]
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla GLI",
     "preco_publico": "De: R$ 176.500,00",
     "preco_pcd": "R$ 144.658,00",
-    "imagens": ["images/toyota/corolla_gli.png"]
+    "imagens": ["marca-data/toyota/corolla_gli.png"]
   },
   {
     "marca": "BYD",
     "modelo": "SONG PRO GL",
     "preco_publico": "De: R$ 189.990,00",
     "preco_pcd": "R$ 147.990,00",
-    "imagens": ["images/byd/song_gl.png"]
+    "imagens": ["marca-data/byd/song_gl.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "HRV EX",
     "preco_publico": "De: R$ 165.700,00",
     "preco_pcd": "R$ 148.699,00",
-    "imagens": ["images/honda/hrv_ex.png"]
+    "imagens": ["marca-data/honda/hrv_ex.png"]
   },
   {
     "marca": "HONDA",
     "modelo": "HRV EXL",
     "preco_publico": "De: R$ 173.400,00",
     "preco_pcd": "R$ 155.609,00",
-    "imagens": ["images/honda/hrv_exl.png"]
+    "imagens": ["marca-data/honda/hrv_exl.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Advance",
     "preco_publico": "De: R$ 177.990,00",
     "preco_pcd": "R$ 156.990,00",
-    "imagens": ["images/nissan/novo_kicks_advance.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_advance.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "SENTRA Exclusive",
     "preco_publico": "De: R$ 198.790,00",
     "preco_pcd": "R$ 159.990,00",
-    "imagens": ["images/nissan/sentra_exclusive.png"]
+    "imagens": ["marca-data/nissan/sentra_exclusive.png"]
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla XEI",
     "preco_publico": "De: R$ 170.910,00",
     "preco_pcd": "R$ 160.334,00",
-    "imagens": ["images/toyota/corolla_xei.png"]
+    "imagens": ["marca-data/toyota/corolla_xei.png"]
   },
   {
     "marca": "BYD",
     "modelo": "KING GS",
     "preco_publico": "De: R$ 175.990,00",
     "preco_pcd": "R$ 161.015,00",
-    "imagens": ["images/byd/king_gs.png"]
+    "imagens": ["marca-data/byd/king_gs.png"]
   },
   {
     "marca": "JEEP",
     "modelo": "Compass Longitude",
     "preco_publico": "De: R$ 192.990,00",
     "preco_pcd": "R$ 164.299,00",
-    "imagens": ["images/jeep/compass_longitude.png"]
+    "imagens": ["marca-data/jeep/compass_longitude.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Exclusive",
     "preco_publico": "De: R$ 184.790,00",
     "preco_pcd": "R$ 167.990,00",
-    "imagens": ["images/nissan/novo_kicks_exclusive.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_exclusive.png"]
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla Cross XRE",
     "preco_publico": "De: R$ 193.210,00",
     "preco_pcd": "R$ 178.435,00",
-    "imagens": ["images/toyota/corolla_cross_xre.png"]
+    "imagens": ["marca-data/toyota/corolla_cross_xre.png"]
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Platium",
     "preco_publico": "De: R$ 199.000,00",
     "preco_pcd": "R$ 180.990,00",
-    "imagens": ["images/nissan/novo_kicks_platium.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_platium.png"]
   },
   {
     "marca": "BYD",
     "modelo": "SONG PRO GS",
     "preco_publico": "De: R$ 199.990,00",
     "preco_pcd": "R$ 182.973,00",
-    "imagens": ["images/byd/song_gs.png"]
+    "imagens": ["marca-data/byd/song_gs.png"]
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "marca": "PEUGEOT",
+    "modelo": "208 Style",
+    "preco_publico": "De: R$ 105.990,00",
+    "preco_pcd": "R$ 81.975,00",
+    "imagens": ["marca-data/peugeot/208.png"]
+  },
+  {
+    "marca": "PEUGEOT",
+    "modelo": "208 Active",
+    "preco_publico": "De: R$ 113.990,00",
+    "preco_pcd": "R$ 97.493,00",
+    "imagens": ["marca-data/peugeot/208_active.png"]
+  },
+  {
+    "marca": "PEUGEOT",
+    "modelo": "2008 Active",
+    "preco_publico": "De: R$ 149.990,00",
+    "preco_pcd": "R$ 123.277,00",
+    "imagens": ["marca-data/peugeot/2008.png"]
+  }
+]

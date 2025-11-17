@@ -1,0 +1,9 @@
+[
+  {
+    "marca": "HYUNDAI",
+    "modelo": "CRETA",
+    "preco_publico": "De: R$ 154.990,00",
+    "preco_pcd": "R$ 127.387,00",
+    "imagens": ["marca-data/hyundai/creta.png"]
+  }
+]

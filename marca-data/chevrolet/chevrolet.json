@@ -1,0 +1,37 @@
+[
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Onix 1.0",
+    "preco_publico": "De: R$ 99.990,00",
+    "preco_pcd": "R$ 84.990,00",
+    "imagens": ["marca-data/chevrolet/onix.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Onix AT",
+    "preco_publico": "De: R$ 112.990,00",
+    "preco_pcd": "R$ 90.990,00",
+    "imagens": ["marca-data/chevrolet/onix_at.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Tracker",
+    "preco_publico": "De: R$ 119.900,00",
+    "preco_pcd": "R$ 105.862,00",
+    "imagens": ["marca-data/chevrolet/tracker.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Spin AT",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 104.890,00",
+    "imagens": ["marca-data/chevrolet/spin_at.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Spin LTZ",
+    "preco_publico": "De: R$ 150.990,00",
+    "preco_pcd": "R$ 140.490,00",
+    "imagens": ["marca-data/chevrolet/spin_ltz.png"]
+  }
+]

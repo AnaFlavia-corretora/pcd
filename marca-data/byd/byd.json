@@ -1,0 +1,44 @@
+[
+  {
+    "marca": "BYD",
+    "modelo": "DOLPHIN MINI GL",
+    "preco_publico": "De: R$ 118.990,00",
+    "preco_pcd": "R$ 97.990,00",
+    "imagens": ["marca-data/byd/dolphin_mini_gl.png"]
+  },
+  {
+    "marca": "BYD",
+    "modelo": "DOLPHIN MINI GS",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 102.990,00",
+    "imagens": ["marca-data/byd/dolphin_mini_gs.png"]
+  },
+  {
+    "marca": "BYD",
+    "modelo": "KING GL",
+    "preco_publico": "De: R$ 169.990,00",
+    "preco_pcd": "R$ 132.090,00",
+    "imagens": ["marca-data/byd/king_gl.png"]
+  },
+  {
+    "marca": "BYD",
+    "modelo": "SONG PRO GL",
+    "preco_publico": "De: R$ 189.990,00",
+    "preco_pcd": "R$ 147.990,00",
+    "imagens": ["marca-data/byd/song_gl.png"]
+  },
+  {
+    "marca": "BYD",
+    "modelo": "KING GS",
+    "preco_publico": "De: R$ 175.990,00",
+    "preco_pcd": "R$ 161.015,00",
+    "imagens": ["marca-data/byd/king_gs.png"]
+  },
+  {
+    "marca": "BYD",
+    "modelo": "SONG PRO GS",
+    "preco_publico": "De: R$ 199.990,00",
+    "preco_pcd": "R$ 182.973,00",
+    "imagens": ["marca-data/byd/song_gs.png"]
+  }
+]

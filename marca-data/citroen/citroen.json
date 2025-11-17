@@ -1,0 +1,37 @@
+[
+  {
+    "marca": "CITROEN",
+    "modelo": "C3 FEEL",
+    "preco_publico": "De: R$ 93.990,00",
+    "preco_pcd": "R$ 74.350,00",
+    "imagens": ["marca-data/citroen/c3_feel.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "modelo": "Basatl FEEL",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 94.270,00",
+    "imagens": ["marca-data/citroen/basalt_feel.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "modelo": "Aircross FEEL",
+    "preco_publico": "De: R$ 111.751,00",
+    "preco_pcd": "R$ 95.833,00",
+    "imagens": ["marca-data/citroen/aircross_feel.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "modelo": "Aircross 7 FEEL",
+    "preco_publico": "De: R$ 126.990,00",
+    "preco_pcd": "R$ 109.136,00",
+    "imagens": ["marca-data/citroen/aircross_feel.png"]
+  },
+  {
+    "marca": "CITROEN",
+    "modelo": "Aircross 7 XTR",
+    "preco_publico": "De: R$ 152.990,00",
+    "preco_pcd": "R$ 121.477,00",
+    "imagens": ["marca-data/citroen/aircross_xtr.png"]
+  }
+]

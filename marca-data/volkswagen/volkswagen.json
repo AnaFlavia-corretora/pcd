@@ -1,0 +1,58 @@
+[
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Polo Sense",
+    "preco_publico": "De: R$ 108.490,00",
+    "preco_pcd": "R$ 89.399,00",
+    "imagens": ["marca-data/volkswagen/polo_sense.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Virtus Sense",
+    "preco_publico": "De: R$ 110.990,00",
+    "preco_pcd": "R$ 89.922,00",
+    "imagens": ["marca-data/volkswagen/virtus_sense.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "T-Cross Sense",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 101.791,00",
+    "imagens": ["marca-data/volkswagen/t_cross_sense.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "New T-Cross Sense",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 101.792,00",
+    "imagens": ["marca-data/volkswagen/new_t_cross_sense.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Polo Highline",
+    "preco_publico": "De: R$ 134.490,00",
+    "preco_pcd": "R$ 111.525,00",
+    "imagens": ["marca-data/volkswagen/polo_highline.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Tera High",
+    "preco_publico": "De: R$ 141.890,00",
+    "preco_pcd": "R$ 123.106,00",
+    "imagens": ["marca-data/volkswagen/tera.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Nivus Comfortline",
+    "preco_publico": "De: R$ 152.990,00",
+    "preco_pcd": "R$ 124.290,00",
+    "imagens": ["marca-data/volkswagen/nivus_comfortline.png"]
+  },
+  {
+    "marca": "VOLKSWAGEN",
+    "modelo": "Virtus Highline",
+    "preco_publico": "De: R$ 158.990,00",
+    "preco_pcd": "R$ 126.256,00",
+    "imagens": ["marca-data/volkswagen/virtus_highline.png"]
+  }
+]

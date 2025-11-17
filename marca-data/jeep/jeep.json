@@ -1,0 +1,30 @@
+[
+  {
+    "marca": "JEEP",
+    "modelo": "Renegade Sport",
+    "preco_publico": "De: R$ 118.290,00",
+    "preco_pcd": "R$ 101.799,00",
+    "imagens": ["marca-data/jeep/renegade_sport.png"]
+  },
+  {
+    "marca": "JEEP",
+    "modelo": "Renegade Altitude",
+    "preco_publico": "De: R$ 142.990,00",
+    "preco_pcd": "R$ 115.699,00",
+    "imagens": ["marca-data/jeep/renegade_altitude.png"]
+  },
+  {
+    "marca": "JEEP",
+    "modelo": "Compass Sport",
+    "preco_publico": "De: R$ 169.990,00",
+    "preco_pcd": "R$ 137.499,00",
+    "imagens": ["marca-data/jeep/compass_sport.png"]
+  },
+  {
+    "marca": "JEEP",
+    "modelo": "Compass Longitude",
+    "preco_publico": "De: R$ 192.990,00",
+    "preco_pcd": "R$ 164.299,00",
+    "imagens": ["marca-data/jeep/compass_longitude.png"]
+  }
+]

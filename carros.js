@@ -278,32 +278,58 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("scroll", toggleScrollToTopButton);
   }
 
-  // Lógica de Carregamento e Ordenação (já existente)
-  fetch("carros.json")
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
-      }
-      return res.json();
-    })
-    .then((carros) => {
-      // Armazena os dados originais
-      imoveisData = carros;
+  // 1. Lista de arquivos JSON por marca
+  const marcaFiles = [
+    "marca-data/citroen/citroen.json",
+    "marca-data/peugeot/peugeot.json",
+    "marca-data/chevrolet/chevrolet.json",
+    "marca-data/fiat/fiat.json",
+    "marca-data/volkswagen/volkswagen.json",
+    "marca-data/nissan/nissan.json",
+    "marca-data/byd/byd.json",
+    "marca-data/jeep/jeep.json",
+    "marca-data/renault/renault.json",
+    "marca-data/honda/honda.json",
+    "marca-data/hyundai/hyundai.json",
+    "marca-data/caoa/caoa.json",
+    "marca-data/toyota/toyota.json",
+    // Adicione todos os seus novos arquivos JSON aqui
+  ];
 
-      // Pega a opção inicial e ordena/renderiza
+  // 2. Faz o fetch de todos os arquivos JSON
+  Promise.all(
+    marcaFiles.map((file) =>
+      fetch(file)
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(
+              `HTTP error! status: ${res.status} for file: ${file}`
+            );
+          }
+          return res.json();
+        })
+        .catch((error) => {
+          console.error(`Erro ao carregar o arquivo ${file}:`, error);
+          return []; // Retorna um array vazio para não quebrar o Promise.all
+        })
+    )
+  )
+    .then((results) => {
+      // 3. Combina todos os arrays de carros em uma única lista
+      imoveisData = results.flat();
+
+      // 4. Lógica de Ordenação e Renderização (continua a mesma)
       const initialSortOption = sortSelect ? sortSelect.value : "default";
       const initialList = sortImoveis(imoveisData, initialSortOption);
       renderImoveis(initialList, initialSortOption);
 
-      // Adiciona o Event Listener para a ordenação
       if (sortSelect) {
         sortSelect.addEventListener("change", (event) => {
           const selectedOption = event.target.value;
           const sortedList = sortImoveis(imoveisData, selectedOption);
-          // Passa a opção selecionada para o renderizador
           renderImoveis(sortedList, selectedOption);
         });
       }
     })
-    .catch((error) => console.error("Erro ao carregar os imóveis:", error));
+    .catch((error) => console.error("Erro geral ao carregar os dados:", error));
 });

@@ -1,0 +1,30 @@
+[
+  {
+    "marca": "TOYOTA",
+    "modelo": "Corolla Cross XR",
+    "preco_publico": "De: R$ 191.010,00",
+    "preco_pcd": "R$ 144.651,00",
+    "imagens": ["marca-data/toyota/corolla_cross_xr.png"]
+  },
+  {
+    "marca": "TOYOTA",
+    "modelo": "Corolla GLI",
+    "preco_publico": "De: R$ 176.500,00",
+    "preco_pcd": "R$ 144.658,00",
+    "imagens": ["marca-data/toyota/corolla_gli.png"]
+  },
+  {
+    "marca": "TOYOTA",
+    "modelo": "Corolla XEI",
+    "preco_publico": "De: R$ 170.910,00",
+    "preco_pcd": "R$ 160.334,00",
+    "imagens": ["marca-data/toyota/corolla_xei.png"]
+  },
+  {
+    "marca": "TOYOTA",
+    "modelo": "Corolla Cross XRE",
+    "preco_publico": "De: R$ 193.210,00",
+    "preco_pcd": "R$ 178.435,00",
+    "imagens": ["marca-data/toyota/corolla_cross_xre.png"]
+  }
+]
