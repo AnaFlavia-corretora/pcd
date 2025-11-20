@@ -16,29 +16,29 @@
   {
     "marca": "FIAT",
     "modelo": "Pulse 1.3 Drive",
-    "preco_publico": "De: R$ 112.990,00",
-    "preco_pcd": "R$ 93.500,00",
+    "preco_publico": "De: R$ 113.990,00",
+    "preco_pcd": "R$ 96.350,00",
     "imagens": ["marca-data/fiat/pulse_drive.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Pulse Turbo",
-    "preco_publico": "De: R$ 116.990,00",
-    "preco_pcd": "R$ 98.900,00",
+    "preco_publico": "De: R$ 117.990,00",
+    "preco_pcd": "R$ 97.995,00",
     "imagens": ["marca-data/fiat/pulse_drive.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Fastback Turbo 200",
     "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 105.635,00",
+    "preco_pcd": "R$ 103.700,00",
     "imagens": ["marca-data/fiat/fastback_audace.png"]
   },
   {
     "marca": "FIAT",
     "modelo": "Fastback Audace",
-    "preco_publico": "De: R$ 160.990,00",
-    "preco_pcd": "R$ 142.895,00",
+    "preco_publico": "De: R$ 173.490,00",
+    "preco_pcd": "R$ 147.580,00",
     "imagens": ["marca-data/fiat/fastback_audace.png"]
   }
 ]

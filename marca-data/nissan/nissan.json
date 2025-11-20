@@ -4,83 +4,95 @@
     "modelo": "Versa Sense",
     "preco_publico": "De: R$ 117.990,00",
     "preco_pcd": "R$ 92.990,00",
-    "imagens": ["marca-data/nissan/versa_sense.png"]
+    "imagens": ["marca-data/nissan/versa_sense.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "Kicks Active Plus",
     "preco_publico": "De: R$ 117.990,00",
     "preco_pcd": "R$ 91.990,00",
-    "imagens": ["marca-data/nissan/kicks_play_active.png"]
+    "imagens": ["marca-data/nissan/kicks_play_active.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "Versa Advance",
     "preco_publico": "De: R$ 127.290,00",
     "preco_pcd": "R$ 109.990,00",
-    "imagens": ["marca-data/nissan/versa_advance.png"]
+    "imagens": ["marca-data/nissan/versa_advance.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "Kicks Sense",
     "preco_publico": "De: R$ 131.590,00",
     "preco_pcd": "R$ 109.990,00",
-    "imagens": ["marca-data/nissan/kicks_play_sense.png"]
+    "imagens": ["marca-data/nissan/kicks_play_sense.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "Kicks Advance Plus",
     "preco_publico": "De: R$ 150.190,00",
     "preco_pcd": "R$ 123.990,00",
-    "imagens": ["marca-data/nissan/kicks_play_advance.png"]
+    "imagens": ["marca-data/nissan/kicks_play_advance.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "Versa Exclusive",
     "preco_publico": "De: R$ 145.390,00",
     "preco_pcd": "R$ 123.990,00",
-    "imagens": ["marca-data/nissan/versa_exclusive.png"]
+    "imagens": ["marca-data/nissan/versa_exclusive.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "SENTRA Advance",
     "preco_publico": "De: R$ 174.490,00",
     "preco_pcd": "R$ 136.490,00",
-    "imagens": ["marca-data/nissan/sentra_advance.png"]
+    "imagens": ["marca-data/nissan/sentra_advance.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Sense",
     "preco_publico": "De: R$ 164.990,00",
     "preco_pcd": "R$ 141.990,00",
-    "imagens": ["marca-data/nissan/novo_kicks_sense.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_sense.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Advance",
     "preco_publico": "De: R$ 177.990,00",
     "preco_pcd": "R$ 156.990,00",
-    "imagens": ["marca-data/nissan/novo_kicks_advance.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_advance.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "SENTRA Exclusive",
     "preco_publico": "De: R$ 198.790,00",
     "preco_pcd": "R$ 159.990,00",
-    "imagens": ["marca-data/nissan/sentra_exclusive.png"]
+    "imagens": ["marca-data/nissan/sentra_exclusive.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Exclusive",
     "preco_publico": "De: R$ 184.790,00",
     "preco_pcd": "R$ 167.990,00",
-    "imagens": ["marca-data/nissan/novo_kicks_exclusive.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_exclusive.png"],
+    "atualização": "17/11/2025"
   },
   {
     "marca": "NISSAN",
     "modelo": "New Kicks Platium",
     "preco_publico": "De: R$ 199.000,00",
     "preco_pcd": "R$ 180.990,00",
-    "imagens": ["marca-data/nissan/novo_kicks_platium.png"]
+    "imagens": ["marca-data/nissan/novo_kicks_platium.png"],
+    "atualização": "17/11/2025"
   }
 ]

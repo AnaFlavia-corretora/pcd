@@ -15,17 +15,17 @@
   },
   {
     "marca": "CHEVROLET",
-    "modelo": "Tracker",
-    "preco_publico": "De: R$ 119.900,00",
-    "preco_pcd": "R$ 105.862,00",
-    "imagens": ["marca-data/chevrolet/tracker.png"]
-  },
-  {
-    "marca": "CHEVROLET",
     "modelo": "Spin AT",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 104.890,00",
     "imagens": ["marca-data/chevrolet/spin_at.png"]
+  },
+  {
+    "marca": "CHEVROLET",
+    "modelo": "Tracker",
+    "preco_publico": "De: R$ 119.900,00",
+    "preco_pcd": "R$ 104.890,00",
+    "imagens": ["marca-data/chevrolet/tracker.png"]
   },
   {
     "marca": "CHEVROLET",
