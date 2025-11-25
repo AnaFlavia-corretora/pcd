@@ -8,30 +8,33 @@
   },
   {
     "marca": "CITROEN",
-    "modelo": "Basatl FEEL",
+    "modelo": "Basatl FEEL Turbo",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 94.270,00",
-    "imagens": ["marca-data/citroen/basalt_feel.png"]
+    "imagens": ["marca-data/citroen/basalt_feel.png"],
+    "atualizado": "25/11/2025"
   },
   {
     "marca": "CITROEN",
-    "modelo": "Aircross FEEL",
+    "modelo": "Aircross FEEL Turbo",
     "preco_publico": "De: R$ 111.751,00",
     "preco_pcd": "R$ 95.833,00",
     "imagens": ["marca-data/citroen/aircross_feel.png"]
   },
   {
     "marca": "CITROEN",
-    "modelo": "Aircross 7 FEEL",
+    "modelo": "Aircross 7 FEEL Turbo",
     "preco_publico": "De: R$ 126.990,00",
     "preco_pcd": "R$ 109.136,00",
-    "imagens": ["marca-data/citroen/aircross_feel.png"]
+    "imagens": ["marca-data/citroen/aircross_feel.png"],
+    "atualizado": "25/11/2025"
   },
   {
     "marca": "CITROEN",
-    "modelo": "Aircross 7 XTR",
+    "modelo": "Aircross 7 XTR Turbo",
     "preco_publico": "De: R$ 152.990,00",
     "preco_pcd": "R$ 121.477,00",
-    "imagens": ["marca-data/citroen/aircross_xtr.png"]
+    "imagens": ["marca-data/citroen/aircross_xtr.png"],
+    "atualizado": "25/11/2025"
   }
 ]

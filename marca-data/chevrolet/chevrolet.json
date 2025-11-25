@@ -4,34 +4,39 @@
     "modelo": "Onix 1.0",
     "preco_publico": "De: R$ 99.990,00",
     "preco_pcd": "R$ 84.990,00",
-    "imagens": ["marca-data/chevrolet/onix.png"]
+    "imagens": ["marca-data/chevrolet/onix.png"],
+    "atualizado": "20/11/2025"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Onix AT",
     "preco_publico": "De: R$ 112.990,00",
     "preco_pcd": "R$ 90.990,00",
-    "imagens": ["marca-data/chevrolet/onix_at.png"]
+    "imagens": ["marca-data/chevrolet/onix_at.png"],
+    "atualizado": "20/11/2025"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Spin AT",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 104.890,00",
-    "imagens": ["marca-data/chevrolet/spin_at.png"]
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "20/11/2025"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Tracker",
     "preco_publico": "De: R$ 119.900,00",
     "preco_pcd": "R$ 104.890,00",
-    "imagens": ["marca-data/chevrolet/tracker.png"]
+    "imagens": ["marca-data/chevrolet/tracker.png"],
+    "atualizado": "20/11/2025"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Spin LTZ",
     "preco_publico": "De: R$ 150.990,00",
     "preco_pcd": "R$ 140.490,00",
-    "imagens": ["marca-data/chevrolet/spin_ltz.png"]
+    "imagens": ["marca-data/chevrolet/spin_ltz.png"],
+    "atualizado": "20/11/2025"
   }
 ]
