@@ -3,17 +3,17 @@
     "marca": "CHEVROLET",
     "modelo": "Onix 1.0",
     "preco_publico": "De: R$ 99.990,00",
-    "preco_pcd": "R$ 84.990,00",
+    "preco_pcd": "R$ 87.490,00",
     "imagens": ["marca-data/chevrolet/onix.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Onix AT",
     "preco_publico": "De: R$ 112.990,00",
-    "preco_pcd": "R$ 90.990,00",
+    "preco_pcd": "R$ 92.690,00",
     "imagens": ["marca-data/chevrolet/onix_at.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "CHEVROLET",
@@ -21,7 +21,7 @@
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 104.890,00",
     "imagens": ["marca-data/chevrolet/spin_at.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "CHEVROLET",
@@ -29,7 +29,7 @@
     "preco_publico": "De: R$ 119.900,00",
     "preco_pcd": "R$ 104.890,00",
     "imagens": ["marca-data/chevrolet/tracker.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "CHEVROLET",

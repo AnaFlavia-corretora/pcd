@@ -25,26 +25,34 @@
   },
   {
     "marca": "FIAT",
-    "modelo": "Pulse Turbo",
-    "preco_publico": "De: R$ 117.990,00",
-    "preco_pcd": "R$ 97.995,00",
+    "modelo": "Pulse Turbo AT",
+    "preco_publico": "De: R$  118.990,00",
+    "preco_pcd": "R$ 98.892,00",
     "imagens": ["marca-data/fiat/pulse_drive.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "FIAT",
-    "modelo": "Fastback Turbo 200",
+    "modelo": "Fastback Turbo 200 AT",
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 103.700,00",
     "imagens": ["marca-data/fiat/fastback_audace.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
   },
   {
     "marca": "FIAT",
-    "modelo": "Fastback Audace",
+    "modelo": "Fastback Limited Turbo AT",
     "preco_publico": "De: R$ 173.490,00",
-    "preco_pcd": "R$ 147.580,00",
+    "preco_pcd": "R$ 144.718,00",
     "imagens": ["marca-data/fiat/fastback_audace.png"],
-    "atualizado": "20/11/2025"
+    "atualizado": "19/01/2026"
+  },
+  {
+    "marca": "FIAT",
+    "modelo": "Fastback Audace Turbo Hybrid AT",
+    "preco_publico": "De: R$ 165.990,00",
+    "preco_pcd": "R$ 135.745,00",
+    "imagens": ["marca-data/fiat/fastback_audace.png"],
+    "atualizado": "19/01/2026"
   }
 ]

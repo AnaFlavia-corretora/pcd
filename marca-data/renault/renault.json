@@ -4,27 +4,31 @@
     "modelo": "Kardian Authentic AT 1.0T",
     "preco_publico": "De: R$ 113.990,00",
     "preco_pcd": "R$ 95.474,11",
-    "imagens": ["marca-data/renault/kardian_authentic.png"]
+    "imagens": ["marca-data/renault/kardian_authentic.png"],
+    "atualizado": "10/11/2025"
   },
   {
     "marca": "RENAULT",
     "modelo": "Duster Intense Plus 1.6",
     "preco_publico": "De: R$ 151.690,00",
     "preco_pcd": "R$ 121.904,67",
-    "imagens": ["marca-data/renault/duster_intense.png"]
+    "imagens": ["marca-data/renault/duster_intense.png"],
+    "atualizado": "10/11/2025"
   },
   {
     "marca": "RENAULT",
     "modelo": "Duster Iconic Plus 1.6",
     "preco_publico": "De: R$ 159.690,00",
     "preco_pcd": "R$ 121.904,67",
-    "imagens": ["marca-data/renault/duster_iconic.png"]
+    "imagens": ["marca-data/renault/duster_iconic.png"],
+    "atualizado": "10/11/2025"
   },
   {
     "marca": "RENAULT",
     "modelo": "Duster Iconic Plus 1.3T",
     "preco_publico": "De: R$ 176.990,00",
     "preco_pcd": "R$ 141.934,97",
-    "imagens": ["marca-data/renault/duster_iconic.png"]
+    "imagens": ["marca-data/renault/duster_iconic.png"],
+    "atualizado": "10/11/2025"
   }
 ]
