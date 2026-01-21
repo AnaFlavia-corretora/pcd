@@ -427,7 +427,9 @@ main#carro-detalhes-container {
   font-size: 20px;
   line-height: 1; /* Alinha o conteúdo (seta) no centro */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s, opacity 0.3s;
+  transition:
+    background-color 0.3s,
+    opacity 0.3s;
   opacity: 0; /* Começa totalmente transparente */
   visibility: hidden; /* Garante que não possa ser clicado enquanto estiver oculto */
 }
@@ -441,4 +443,13 @@ main#carro-detalhes-container {
   opacity: 1;
   visibility: visible;
   display: block; /* Garante que o display: none seja sobrescrito */
+}
+
+/* Estilo discreto para a data de atualização */
+.carro-update {
+  font-size: 0.75em; /* Tamanho pequeno */
+  color: #999; /* Cor cinza clara */
+  margin-top: -10px; /* Traz para mais perto do preço ou botão */
+  margin-bottom: 10px;
+  font-style: italic;
 }

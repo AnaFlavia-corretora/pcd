@@ -232,6 +232,7 @@ function renderImoveis(carros, currentSortOption) {
             ${discountHTML} 
             
             <div class="carro-price">${carro.preco_pcd}</div>
+            <div class="carro-update">Atualizado em: ${carro.atualizado}</div>
           </div>
           <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="carro-button">WhatsApp</a>
         `;
@@ -303,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((res) => {
           if (!res.ok) {
             throw new Error(
-              `HTTP error! status: ${res.status} for file: ${file}`
+              `HTTP error! status: ${res.status} for file: ${file}`,
             );
           }
           return res.json();
@@ -311,8 +312,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch((error) => {
           console.error(`Erro ao carregar o arquivo ${file}:`, error);
           return []; // Retorna um array vazio para não quebrar o Promise.all
-        })
-    )
+        }),
+    ),
   )
     .then((results) => {
       // 3. Combina todos os arrays de carros em uma única lista
