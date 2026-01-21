@@ -106,6 +106,35 @@ function formatCurrency(value) {
 }
 
 /**
+ * Converte data "dd/mm/aaaa" para "mês/aaaa" (ex: jan/2026).
+ */
+function formatUpdateDate(dateString) {
+  if (!dateString || !dateString.includes("/")) return dateString;
+
+  const partes = dateString.split("/");
+  const mes = parseInt(partes[1], 10);
+  const ano = partes[2];
+
+  const mesesAbreviados = [
+    "jan",
+    "fev",
+    "mar",
+    "abr",
+    "mai",
+    "jun",
+    "jul",
+    "ago",
+    "set",
+    "out",
+    "nov",
+    "dez",
+  ];
+
+  // Retorna no formato abr/aaaa
+  return `${mesesAbreviados[mes - 1]}/${ano}`;
+}
+
+/**
  * Ordena a lista de imóveis com base na opção selecionada.
  * @param {Array<Object>} data - O array de objetos dos imóveis.
  * @param {string} sortOption - A opção de ordenação ('valor_asc', 'marca_asc', 'desconto_desc', 'desconto_percentual_desc' ou 'default').
@@ -219,6 +248,8 @@ function renderImoveis(carros, currentSortOption) {
     // Lógica de renderização do cartão
     const card = document.createElement("div");
     card.className = "carro-card";
+    // No seu carros.js, dentro do card.innerHTML:
+    const dataFormatada = formatUpdateDate(carro.atualizado);
     card.innerHTML = `
           <img src="${carro.imagens[0]}" class="carro-card-image">
           <div class="carro-card-content">
@@ -232,7 +263,7 @@ function renderImoveis(carros, currentSortOption) {
             ${discountHTML} 
             
             <div class="carro-price">${carro.preco_pcd}</div>
-            <div class="carro-update">Atualizado em: ${carro.atualizado}</div>
+            <div class="carro-update">Atualizado em: ${dataFormatada}</div>
           </div>
           <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="carro-button">WhatsApp</a>
         `;
