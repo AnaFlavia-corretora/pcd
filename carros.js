@@ -274,25 +274,16 @@ function renderImoveis(carros, currentSortOption) {
   });
 }
 
-// ... Resto do código (DOMContentLoaded)
-
 document.addEventListener("DOMContentLoaded", () => {
   const sortSelect = document.getElementById("sort-select");
-
-  // Lógica do botão "Voltar ao Topo" movida para DENTRO do DOMContentLoaded
   const scrollButton = document.getElementById("scrollToTopBtn");
 
-  // 1. Função para rolar para o topo
+  // Funções de rolagem (mantidas como você já tinha)
   function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // Rola suavemente
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  // 2. Função para controlar a visibilidade do botão
   function toggleScrollToTopButton() {
-    // Exibe o botão se a rolagem vertical for maior que 300 pixels
     if (
       document.body.scrollTop > 300 ||
       document.documentElement.scrollTop > 300
@@ -303,14 +294,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 3. Adiciona os Event Listeners
   if (scrollButton) {
     scrollButton.addEventListener("click", scrollToTop);
-    // Adiciona o listener de rolagem APÓS o botão ser encontrado
     window.addEventListener("scroll", toggleScrollToTopButton);
   }
 
-  // 1. Lista de arquivos JSON por marca
   const marcaFiles = [
     "marca-data/citroen/citroen.json",
     "marca-data/peugeot/peugeot.json",
@@ -325,43 +313,104 @@ document.addEventListener("DOMContentLoaded", () => {
     "marca-data/hyundai/hyundai.json",
     "marca-data/caoa/caoa.json",
     "marca-data/toyota/toyota.json",
-    // Adicione todos os seus novos arquivos JSON aqui
   ];
 
-  // 2. Faz o fetch de todos os arquivos JSON
   Promise.all(
     marcaFiles.map((file) =>
       fetch(file)
-        .then((res) => {
-          if (!res.ok) {
-            throw new Error(
-              `HTTP error! status: ${res.status} for file: ${file}`,
-            );
-          }
-          return res.json();
-        })
-        .catch((error) => {
-          console.error(`Erro ao carregar o arquivo ${file}:`, error);
-          return []; // Retorna um array vazio para não quebrar o Promise.all
-        }),
+        .then((res) => (res.ok ? res.json() : []))
+        .catch(() => []),
     ),
   )
     .then((results) => {
-      // 3. Combina todos os arrays de carros em uma única lista
-      imoveisData = results.flat();
+      imoveisData = results.flat(); // Junta todos os carros
 
-      // 4. Lógica de Ordenação e Renderização (continua a mesma)
+      // --- INÍCIO DAS MUDANÇAS ---
+
+      // 1. Gera os botões de marca no topo
+      renderBrandFilters(imoveisData);
+
+      // 2. Renderiza a lista inicial
       const initialSortOption = sortSelect ? sortSelect.value : "default";
-      const initialList = sortImoveis(imoveisData, initialSortOption);
-      renderImoveis(initialList, initialSortOption);
+      renderImoveis(
+        sortImoveis(imoveisData, initialSortOption),
+        initialSortOption,
+      );
 
+      // 3. Listener para quando mudar a ordenação no Select
       if (sortSelect) {
         sortSelect.addEventListener("change", (event) => {
           const selectedOption = event.target.value;
-          const sortedList = sortImoveis(imoveisData, selectedOption);
-          renderImoveis(sortedList, selectedOption);
+
+          // Verifica qual marca está selecionada no momento para não perder o filtro
+          const activeChip = document.querySelector(".brand-chip.active");
+          const marcaAtiva = activeChip ? activeChip.textContent : "Todas";
+
+          const filteredData =
+            marcaAtiva === "Todas"
+              ? imoveisData
+              : imoveisData.filter((c) => c.marca === marcaAtiva);
+
+          renderImoveis(
+            sortImoveis(filteredData, selectedOption),
+            selectedOption,
+          );
         });
       }
+
+      // --- FIM DAS MUDANÇAS ---
     })
     .catch((error) => console.error("Erro geral ao carregar os dados:", error));
 });
+
+/**
+ * Gera os botões de filtro baseados nas marcas únicas encontradas.
+ */
+function renderBrandFilters(data) {
+  const filterContainer = document.getElementById("filter-brands");
+  if (!filterContainer) return;
+
+  // Extrai marcas únicas e ordena de A-Z
+  const marcas = [...new Set(data.map((carro) => carro.marca))].sort();
+
+  filterContainer.innerHTML = "";
+
+  // Cria o botão "Todas"
+  const btnTodas = document.createElement("button");
+  btnTodas.className = "brand-chip active";
+  btnTodas.textContent = "Todas";
+  btnTodas.onclick = () => filterByMarca("todas", btnTodas);
+  filterContainer.appendChild(btnTodas);
+
+  // Cria um botão para cada marca encontrada no JSON
+  marcas.forEach((marca) => {
+    const btn = document.createElement("button");
+    btn.className = "brand-chip";
+    btn.textContent = marca;
+    btn.onclick = () => filterByMarca(marca, btn);
+    filterContainer.appendChild(btn);
+  });
+}
+
+/**
+ * Filtra os carros e mantém a ordenação escolhida no Select.
+ */
+function filterByMarca(marca, elementoClicado) {
+  // 1. Muda a aparência visual dos botões
+  document
+    .querySelectorAll(".brand-chip")
+    .forEach((b) => b.classList.remove("active"));
+  elementoClicado.classList.add("active");
+
+  // 2. Filtra os dados
+  const sortSelect = document.getElementById("sort-select");
+  const currentSort = sortSelect ? sortSelect.value : "default";
+
+  const filteredData =
+    marca === "todas"
+      ? imoveisData
+      : imoveisData.filter((c) => c.marca === marca);
+
+  // 3. Renderiza apenas os carros daquela marca, mantendo a ordem (Preço, Desconto, etc)
+  renderImoveis(sortImoveis(filteredData, currentSort), currentSort);
+}

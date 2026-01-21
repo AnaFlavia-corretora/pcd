@@ -453,3 +453,48 @@ main#carro-detalhes-container {
   margin-bottom: 10px;
   font-style: italic;
 }
+
+.filter-brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1098px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.brand-chip {
+  padding: 8px 18px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #666;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.brand-chip:hover {
+  border-color: #cc0000;
+  color: #cc0000;
+}
+
+.brand-chip.active {
+  background-color: #cc0000; /* Vermelho para combinar com seus preços */
+  color: #fff;
+  border-color: #cc0000;
+  box-shadow: 0 2px 4px rgba(204, 0, 0, 0.2);
+}
+
+/* Ajuste para mobile */
+@media (max-width: 480px) {
+  .filter-brands {
+    justify-content: flex-start;
+    overflow-x: auto; /* Permite scroll lateral se houver muitas marcas */
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+  }
+}
