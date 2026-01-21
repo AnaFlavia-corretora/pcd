@@ -1,0 +1,2 @@
+python gerar_planilha.py
+pause
