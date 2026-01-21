@@ -17,6 +17,14 @@
   },
   {
     "marca": "NISSAN",
+    "modelo": "KAIT Active",
+    "preco_publico": "De: R$ 117.990,00",
+    "preco_pcd": "R$ 102.590,00",
+    "imagens": ["marca-data/nissan/kait.png"],
+    "atualizado": "21/01/2026"
+  },
+  {
+    "marca": "NISSAN",
     "modelo": "Versa Advance",
     "preco_publico": "De: R$ 127.290,00",
     "preco_pcd": "R$ 108.990,00",
@@ -30,6 +38,22 @@
     "preco_pcd": "R$ 109.990,00",
     "imagens": ["marca-data/nissan/kicks_play_sense.png"],
     "atualizado": "17/11/2025"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "KAIT Sense plus",
+    "preco_publico": "De: R$ 139.590,00",
+    "preco_pcd": "R$ 109.990,00",
+    "imagens": ["marca-data/nissan/kait.png"],
+    "atualizado": "21/01/2026"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "KAIT Advance Plus",
+    "preco_publico": "De: R$ 149.890,00",
+    "preco_pcd": "R$ 122.590,00",
+    "imagens": ["marca-data/nissan/kait.png"],
+    "atualizado": "21/01/2026"
   },
   {
     "marca": "NISSAN",
@@ -54,6 +78,14 @@
     "preco_pcd": "R$ 136.490,00",
     "imagens": ["marca-data/nissan/sentra_advance.png"],
     "atualizado": "17/11/2025"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "KAIT Exclusive",
+    "preco_publico": "De: R$ 152.990,00",
+    "preco_pcd": "R$ 133.590,00",
+    "imagens": ["marca-data/nissan/kait.png"],
+    "atualizado": "21/01/2026"
   },
   {
     "marca": "NISSAN",
