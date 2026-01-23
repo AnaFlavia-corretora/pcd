@@ -17,6 +17,14 @@
   },
   {
     "marca": "JEEP",
+    "modelo": "Renegade Longitude T270",
+    "preco_publico": "De: R$ R$165.960,00",
+    "preco_pcd": "R$ 137.815,00",
+    "imagens": ["marca-data/jeep/renegade_longitude.png"],
+    "atualizado": "21/01/2026"
+  },
+  {
+    "marca": "JEEP",
     "modelo": "Compass Sport T270",
     "preco_publico": "De: R$ 174.990,00",
     "preco_pcd": "R$ 141.746,00",

@@ -2,57 +2,57 @@
   {
     "marca": "CITROEN",
     "modelo": "C3 FEEL 1.0 MT",
-    "preco_publico": "De: R$ 93.990,00",
-    "preco_pcd": "R$ 74.350,00",
+    "preco_publico": "De: R$ 96.290,00",
+    "preco_pcd": "R$ 88.290,00",
     "imagens": ["marca-data/citroen/c3_feel.png"],
-    "atualizado": "20/10/2025"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Basalt FEEL 1.0 MT",
-    "preco_publico": "De: R$ 94.000,00",
-    "preco_pcd": "R$ 80.232,00",
+    "preco_publico": "De: R$ 103.890,00",
+    "preco_pcd": "R$ 96.690,00",
     "imagens": ["marca-data/citroen/basalt_feel.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "C3 YOU Turbo 200 AT",
     "preco_publico": "De: R$ 111.290,00",
-    "preco_pcd": "R$ 90.780,00",
+    "preco_pcd": "R$ 108.290,00",
     "imagens": ["marca-data/citroen/c3_you.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Basalt FEEL Turbo",
     "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 94.270,00",
+    "preco_pcd": "R$ 112.690,00",
     "imagens": ["marca-data/citroen/basalt_feel.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross FEEL Turbo 200 AT",
-    "preco_publico": "De: R$ 111.751,00",
-    "preco_pcd": "R$ 95.917,53",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 119.990,00",
     "imagens": ["marca-data/citroen/aircross_feel.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross 7 FEEL Turbo",
-    "preco_publico": "De: R$ 126.990,00",
-    "preco_pcd": "R$ 109.136,00",
+    "preco_publico": "De: R$ 128.490,00",
+    "preco_pcd": "R$ 122.790,00",
     "imagens": ["marca-data/citroen/aircross_feel.png"],
-    "atualizado": "25/11/2025"
+    "atualizado": "23/01/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross 7 XTR Turbo",
     "preco_publico": "De: R$ 155.490,00",
-    "preco_pcd": "R$ 123.460,00",
+    "preco_pcd": "R$ 133.790,00",
     "imagens": ["marca-data/citroen/aircross_xtr.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "23/01/2026"
   }
 ]
