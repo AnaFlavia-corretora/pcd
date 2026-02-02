@@ -300,18 +300,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const marcaFiles = [
-    "marca-data/citroen/citroen.json",
-    "marca-data/peugeot/peugeot.json",
-    "marca-data/chevrolet/chevrolet.json",
-    "marca-data/fiat/fiat.json",
-    "marca-data/volkswagen/volkswagen.json",
-    "marca-data/nissan/nissan.json",
     "marca-data/byd/byd.json",
-    "marca-data/jeep/jeep.json",
-    "marca-data/renault/renault.json",
+    "marca-data/caoa/caoa.json",
+    "marca-data/chevrolet/chevrolet.json",
+    "marca-data/citroen/citroen.json",
+    "marca-data/fiat/fiat.json",
+    "marca-data/haval/haval.json",
     "marca-data/honda/honda.json",
     "marca-data/hyundai/hyundai.json",
-    "marca-data/caoa/caoa.json",
+    "marca-data/jeep/jeep.json",
+    "marca-data/nissan/nissan.json",
+    "marca-data/peugeot/peugeot.json",
+    "marca-data/renault/renault.json",
+    "marca-data/volkswagen/volkswagen.json",
     "marca-data/toyota/toyota.json",
   ];
 
