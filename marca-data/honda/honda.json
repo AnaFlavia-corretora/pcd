@@ -73,6 +73,22 @@
   },
   {
     "marca": "HONDA",
+    "modelo": "WR-V EX CVT",
+    "preco_publico": "De: R$ 147.100,00",
+    "preco_pcd": "R$ 141.712,77",
+    "imagens": ["marca-data/honda/wrv_ex.png"],
+    "atualizado": "06/02/2026"
+  },
+  {
+    "marca": "HONDA",
+    "modelo": "WR-V EXL CVT",
+    "preco_publico": "De: R$ 152.100,00",
+    "preco_pcd": "R$ 146.458,67",
+    "imagens": ["marca-data/honda/wrv_exl.png"],
+    "atualizado": "06/02/2026"
+  },
+  {
+    "marca": "HONDA",
     "modelo": "HRV EX",
     "preco_publico": "De: R$ 168.600,00",
     "preco_pcd": "R$ 152.937,06",
