@@ -17,14 +17,6 @@
   },
   {
     "marca": "FIAT",
-    "modelo": "Pulse 1.3 Drive AT CVT",
-    "preco_publico": "De: R$ 114.990,00",
-    "preco_pcd": "R$ 98.795,00",
-    "imagens": ["marca-data/fiat/pulse_drive.png"],
-    "atualizado": "20/11/2025"
-  },
-  {
-    "marca": "FIAT",
     "modelo": "Pulse Turbo AT CVT",
     "preco_publico": "De: R$  118.990,00",
     "preco_pcd": "R$ 100.465,00",

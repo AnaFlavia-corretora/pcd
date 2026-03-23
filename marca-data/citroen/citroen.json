@@ -19,17 +19,17 @@
     "marca": "CITROEN",
     "modelo": "C3 YOU Turbo 200 AT",
     "preco_publico": "De: R$ 111.290,00",
-    "preco_pcd": "R$ 108.290,00",
+    "preco_pcd": "R$ 90.780,00",
     "imagens": ["marca-data/citroen/c3_you.png"],
-    "atualizado": "23/01/2026"
+    "atualizado": "17/02/2026"
   },
   {
     "marca": "CITROEN",
-    "modelo": "Basalt FEEL Turbo",
+    "modelo": "Basalt FEEL Turbo 200 AT",
     "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 112.690,00",
+    "preco_pcd": "R$ 97.412,00",
     "imagens": ["marca-data/citroen/basalt_feel.png"],
-    "atualizado": "23/01/2026"
+    "atualizado": "17/02/2026"
   },
   {
     "marca": "CITROEN",
@@ -49,10 +49,10 @@
   },
   {
     "marca": "CITROEN",
-    "modelo": "Aircross 7 XTR Turbo",
+    "modelo": "Aircross 7 XTR Turbo 200 AT",
     "preco_publico": "De: R$ 155.490,00",
-    "preco_pcd": "R$ 133.790,00",
+    "preco_pcd": "R$ 123.460,00",
     "imagens": ["marca-data/citroen/aircross_xtr.png"],
-    "atualizado": "23/01/2026"
+    "atualizado": "17/02/2026"
   }
 ]

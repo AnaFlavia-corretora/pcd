@@ -33,14 +33,6 @@
   },
   {
     "marca": "CHEVROLET",
-    "modelo": "Spin LTZ",
-    "preco_publico": "De: R$ 150.990,00",
-    "preco_pcd": "R$ 140.490,00",
-    "imagens": ["marca-data/chevrolet/spin_ltz.png"],
-    "atualizado": "20/11/2025"
-  },
-  {
-    "marca": "CHEVROLET",
     "modelo": "Spark EUV",
     "preco_publico": "De: R$ 169.990,00",
     "preco_pcd": "R$ 149.790,00",

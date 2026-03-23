@@ -22,13 +22,5 @@
     "preco_pcd": "R$ 161.951,47",
     "imagens": ["marca-data/toyota/corolla_xei.png"],
     "atualizado": "21/01/2026"
-  },
-  {
-    "marca": "TOYOTA",
-    "modelo": "Corolla Cross XRE",
-    "preco_publico": "De: R$ 193.210,00",
-    "preco_pcd": "R$ 178.487,00",
-    "imagens": ["marca-data/toyota/corolla_cross_xre.png"],
-    "atualizado": "10/11/2025"
   }
 ]
