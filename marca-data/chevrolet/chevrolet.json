@@ -1,34 +1,115 @@
 [
   {
     "marca": "CHEVROLET",
-    "modelo": "Onix 1.0",
-    "preco_publico": "De: R$ 99.990,00",
-    "preco_pcd": "R$ 87.390,00",
+    "modelo": "Onix 1.0 MT",
+    "preco_publico": "De: R$ 102.890,00",
+    "preco_pcd": "R$ 89.930,00",
     "imagens": ["marca-data/chevrolet/onix.png"],
-    "atualizado": "29/04/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "CHEVROLET",
-    "modelo": "Onix AT",
-    "preco_publico": "De: R$ 112.990,00",
-    "preco_pcd": "R$ 91.690,00",
+    "modelo": "Onix Turbo AT",
+    "preco_publico": "De: R$ 111.990,00",
+    "preco_pcd": "R$ 91.998,39",
     "imagens": ["marca-data/chevrolet/onix_at.png"],
-    "atualizado": "29/04/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "CHEVROLET",
-    "modelo": "Tracker AT",
+    "modelo": "Onix ACTIV Turbo AT",
+    "preco_publico": "De: R$ 116.190,00",
+    "preco_pcd": "R$ 96.473,16",
+    "imagens": ["marca-data/chevrolet/onix_activ.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Tracker Turbo AT",
     "preco_publico": "De: R$ 119.900,00",
-    "preco_pcd": "R$ 99.990,00",
+    "preco_pcd": "R$ 99.989,00",
     "imagens": ["marca-data/chevrolet/tracker.png"],
-    "atualizado": "29/04/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Spin 1.8 AT 5 lugares",
+    "preco_publico": "De: R$ 119.900,00",
+    "preco_pcd": "R$ 113.874,00",
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Sonic Premier",
+    "preco_publico": "De: R$ 134.990,00",
+    "preco_pcd": "R$ 115.902,49",
+    "imagens": ["marca-data/chevrolet/sonic_premier.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Spin 1.8 LT MT 5 lugares",
+    "preco_publico": "De: R$ 138.590,00",
+    "preco_pcd": "R$ 127.907,00",
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Sonic RS",
+    "preco_publico": "De: R$ 140.990,00",
+    "preco_pcd": "R$ 121.190,49",
+    "imagens": ["marca-data/chevrolet/sonic_rs.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Tracker LT Turbo",
+    "preco_publico": "De: R$ 146.690,00",
+    "preco_pcd": "R$ 123.706,00",
+    "imagens": ["marca-data/chevrolet/tracker.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Spin 1.8 LTZ AT 5 lugares",
+    "preco_publico": "De: R$ 153.990,00",
+    "preco_pcd": "R$ 142.119,00",
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "27/05/2026"
+  },{
     "marca": "CHEVROLET",
     "modelo": "Spark EUV",
-    "preco_publico": "De: R$ 169.990,00",
-    "preco_pcd": "R$ 136.890,00",
+    "preco_publico": "De: R$ 154.990,00",
+    "preco_pcd": "R$ 136.830,00",
     "imagens": ["marca-data/chevrolet/spark_euv.png"],
-    "atualizado": "29/04/2026"
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Spin 1.8 LTZ AT 7 lugares",
+    "preco_publico": "De: R$ 157.990,00",
+    "preco_pcd": "R$ 145.811,00",
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Tracker LTZ Turbo",
+    "preco_publico": "De: R$ 162.890,00",
+    "preco_pcd": "R$ 143.168,00",
+    "imagens": ["marca-data/chevrolet/tracker.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Spin 1.8 Premier AT 7 lugares",
+    "preco_publico": "De: R$ 165.590,00",
+    "preco_pcd": "R$ 149.238,37",
+    "imagens": ["marca-data/chevrolet/spin_at.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Tracker Premier 1.2 Turbo",
+    "preco_publico": "De: R$ 179.790,00",
+    "preco_pcd": "R$ 155.876,63",
+    "imagens": ["marca-data/chevrolet/tracker.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "CHEVROLET",
+    "modelo": "Tracker RS 1.2 Turbo",
+    "preco_publico": "De: R$ 180.790,00",
+    "preco_pcd": "R$ 156.743,86",
+    "imagens": ["marca-data/chevrolet/tracker.png"],
+    "atualizado": "27/05/2026"
   }
 ]

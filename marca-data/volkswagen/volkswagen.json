@@ -2,57 +2,58 @@
   {
     "marca": "VOLKSWAGEN",
     "modelo": "Polo Sense AT",
-    "preco_publico": "De: R$ 114.780,00",
+    "preco_publico": "De: R$ 112.990,00",
     "preco_pcd": "R$ 93.932,00",
     "imagens": ["marca-data/volkswagen/polo_sense.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "Virtus Sense Manual",
-    "preco_publico": "De: R$ 112.890,00",
-    "preco_pcd": "R$ 91.461,00",
+    "preco_publico": "De: R$ 114.390,00",
+    "preco_pcd": "R$ 92.676,28",
     "imagens": ["marca-data/volkswagen/virtus_sense.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "T-Cross Sense AT",
     "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 99.857,81",
+    "preco_pcd": "R$ 99.990,00",
     "imagens": ["marca-data/volkswagen/new_t_cross_sense.png"],
-    "atualizado": "23/03/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "Polo Highline AT",
-    "preco_publico": "De: R$ 136.990,00",
-    "preco_pcd": "R$ 118.820,00",
+    "preco_publico": "De: R$ 138.690,00",
+    "preco_pcd": "R$ 120.295,00",
     "imagens": ["marca-data/volkswagen/polo_highline.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "Tera High TSI AT",
-    "preco_publico": "De: R$ 144.390,00",
-    "preco_pcd": "R$ 125.233,00",
+    "preco_publico": "De: R$ 146.190,00",
+    "preco_pcd": "R$ 126.794,69",
     "imagens": ["marca-data/volkswagen/tera.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "Nivus Comfortline AT",
-    "preco_publico": "De: R$ 156.890,00",
-    "preco_pcd": "R$ 130.456,96",
+    "preco_publico": "De: R$ 158.290,00",
+    "preco_pcd": "R$ 130.108,20",
     "imagens": ["marca-data/volkswagen/nivus_comfortline.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "27/05/2026"
+  },{
     "marca": "VOLKSWAGEN",
     "modelo": "Virtus Highline AT",
-    "preco_publico": "De: R$ 161.890,00",
-    "preco_pcd": "R$ 130.089,00",
+    "preco_publico": "De: R$ 163.690,00",
+    "preco_pcd": "R$ 131.535,71",
     "imagens": ["marca-data/volkswagen/virtus_highline.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "VOLKSWAGEN",
+    "modelo": "Taos Comfortline AT",
+    "preco_publico": "De: R$ 199.990,00",
+    "preco_pcd": "R$ 169.903,48",
+    "imagens": ["marca-data/volkswagen/taos_highline.png"],
+    "atualizado": "27/05/2026"
   }
 ]
