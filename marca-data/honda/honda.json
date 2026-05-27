@@ -3,104 +3,107 @@
     "marca": "HONDA",
     "modelo": "CITY LX",
     "preco_publico": "De: R$ 119.400,00",
-    "preco_pcd": "R$ 108.176,66",
+    "preco_pcd": "R$ 108.773,40",
     "imagens": ["marca-data/honda/city_lx.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY Hatchback LX",
     "preco_publico": "De: R$ 119.400,00",
-    "preco_pcd": "R$ 108.176,40",
+    "preco_pcd": "R$ 108.773,40",
     "imagens": ["marca-data/honda/city_hb_lx.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY Hatchback EX",
-    "preco_publico": "De: R$ 137.700,00",
-    "preco_pcd": "R$ 124.907,67",
+    "preco_publico": "De: R$ 138.200,00",
+    "preco_pcd": "R$ 126.079,86",
     "imagens": ["marca-data/honda/city_hb_ex.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY EX",
-    "preco_publico": "De: R$ 138.700,00",
-    "preco_pcd": "R$ 125.814,77",
+    "preco_publico": "De: R$ 139.200,00",
+    "preco_pcd": "R$ 126.992,16",
     "imagens": ["marca-data/honda/city_ex.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY Hatchback EXL",
-    "preco_publico": "De: R$ 145.100,00",
-    "preco_pcd": "R$ 131.620,21",
+    "preco_publico": "De: R$ 145.600,00",
+    "preco_pcd": "R$ 132.830,88",
     "imagens": ["marca-data/honda/city_hb_exl.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY EXL",
-    "preco_publico": "De: R$ 146.100,00",
-    "preco_pcd": "R$ 132.527,31",
+    "preco_publico": "De: R$ 146.600,00",
+    "preco_pcd": "R$ 133.743,18",
     "imagens": ["marca-data/honda/city_exl.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY Hatchback TOURING",
-    "preco_publico": "De: R$ 153.600,00",
-    "preco_pcd": "R$ 139.330,56",
+    "preco_publico": "De: R$ 154.100",
+    "preco_pcd": "R$ 140.585,43",
     "imagens": ["marca-data/honda/city_hb_touring.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY TOURING",
-    "preco_publico": "De: R$ 154.600,00",
-    "preco_pcd": "R$ 140.237,66",
+    "preco_publico": "De: R$ 155.100,00",
+    "preco_pcd": "R$ 141.497,73",
     "imagens": ["marca-data/honda/city_touring.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "CITY Hatchback TOURING Sport",
-    "preco_publico": "De: R$ 154.800,00",
-    "preco_pcd": "R$ 140.417,08",
+    "preco_publico": "De: R$ 155.300,00",
+    "preco_pcd": "R$ 141.680,19",
     "imagens": ["marca-data/honda/city_hb_touring_sport.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "WR-V EX CVT",
-    "preco_publico": "De: R$ 147.100,00",
-    "preco_pcd": "R$ 141.712,77",
+    "preco_publico": "De: R$ 151.200,00",
+    "preco_pcd": "R$ 133.706,16",
     "imagens": ["marca-data/honda/wrv_ex.png"],
-    "atualizado": "06/02/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "WR-V EXL CVT",
-    "preco_publico": "De: R$ 152.100,00",
-    "preco_pcd": "R$ 146.458,67",
+    "preco_publico": "De: R$ 156.200,00",
+    "preco_pcd": "R$ 138.127,66",
     "imagens": ["marca-data/honda/wrv_exl.png"],
-    "atualizado": "06/02/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "HRV EX",
     "preco_publico": "De: R$ 168.600,00",
-    "preco_pcd": "R$ 152.937,06",
+    "preco_pcd": "R$ 150.441,78",
     "imagens": ["marca-data/honda/hrv_ex.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "HONDA",
     "modelo": "HRV EXL",
     "preco_publico": "De: R$ 176.500,00",
-    "preco_pcd": "R$ 160.103,13",
+    "preco_pcd": "R$ 157.490,00",
     "imagens": ["marca-data/honda/hrv_exl.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   }
 ]
+HONDA CITY LX
+De: R$ 119.400,00
+Por: R$ 108.773,40
