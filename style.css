@@ -498,3 +498,39 @@ main#carro-detalhes-container {
     padding-bottom: 10px;
   }
 }
+
+/* Container que agrupa a foto do carro e a imagem de indisponível */
+.carro-image-container {
+  position: relative; /* Essencial para que o posicionamento 'absolute' funcione dentro dele */
+  width: 100%;
+  height: 250px; /* Mantém o mesmo tamanho padrão definido na sua classe .carro-card-image */
+  overflow: hidden;
+}
+
+/* Garante que a foto de fundo preencha corretamente o novo container */
+.carro-image-container .carro-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Imagem de sobreposição "Indisponível" */
+.carro-indisponivel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ou 'cover' se a sua imagem indisponivel.png tiver fundo e precisar cobrir tudo */
+  pointer-events: none; /* Garante que cliques passem pela imagem se necessário */
+  z-index: 2; /* Fica acima da foto do carro */
+  background-color: rgba(0, 0, 0, 0.2); /* Opcional: Escurece levemente o fundo para dar destaque ao "indisponível" */
+}
+
+.carro-button.disabled {
+  background-color: #d6d6d6;
+  color: #999;
+  pointer-events: none; /* Desativa o clique */
+  cursor: not-allowed;
+}

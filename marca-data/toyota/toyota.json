@@ -4,8 +4,9 @@
     "modelo": "Corolla Cross XR",
     "preco_publico": "De: R$ 192.600,00",
     "preco_pcd": "R$ 145.786,00",
-    "imagens": ["marca-data/toyota/corolla_cross_xr_indisponivel.png"],
-    "atualizado": "27/05/2026"
+    "imagens": ["marca-data/toyota/corolla_cross_xr.png"],
+    "atualizado": "27/05/2026",
+    "indisponivel": true
   },
   {
     "marca": "TOYOTA",

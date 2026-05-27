@@ -246,12 +246,21 @@ function renderImoveis(carros, currentSortOption) {
     }
 
     // Lógica de renderização do cartão
+// Lógica de renderização do cartão
     const card = document.createElement("div");
     card.className = "carro-card";
-    // No seu carros.js, dentro do card.innerHTML:
+    
+    // NOVO: Verifica se o carro está indisponível e cria o HTML da tag/imagem sobreposta
+    const indisponivelHTML = carro.indisponivel 
+      ? `<img src="marca-data/indisponivel.png" class="carro-indisponivel-overlay" alt="Indisponível">` 
+      : '';
+
     const dataFormatada = formatUpdateDate(carro.atualizado);
     card.innerHTML = `
-          <img src="${carro.imagens[0]}" class="carro-card-image">
+          <div class="carro-image-container">
+            <img src="${carro.imagens[0]}" class="carro-card-image">
+            ${indisponivelHTML}
+          </div>
           <div class="carro-card-content">
             <h3>${cardTitle}</h3>
             <div class="carro-details">
@@ -265,7 +274,7 @@ function renderImoveis(carros, currentSortOption) {
             <div class="carro-price">${carro.preco_pcd}</div>
             <div class="carro-update">Atualizado em: ${dataFormatada}</div>
           </div>
-          <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD." target="_blank" class="carro-button">WhatsApp</a>
+          <a href="https://wa.me/5547991175167?text=Olá! Tenho interesse em informações sobre carros PCD" class="carro-button ${carro.indisponivel ? 'disabled' : ''}">WhatsApp</a>
         `;
     container.appendChild(card);
 

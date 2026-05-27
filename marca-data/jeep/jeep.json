@@ -5,31 +5,32 @@
     "preco_publico": "De: R$ 118.290,00",
     "preco_pcd": "R$ 102.360,00",
     "imagens": ["marca-data/jeep/renegade_sport.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "21/01/2026",
+    "indisponivel": true
   },
   {
     "marca": "JEEP",
     "modelo": "Renegade Altitude T270",
-    "preco_publico": "De: R$ 147.990,00",
-    "preco_pcd": "R$ 120.015,00",
+    "preco_publico": "De: R$ 129.990,00",
+    "preco_pcd": "R$ 121.990,00",
     "imagens": ["marca-data/jeep/renegade_altitude.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "JEEP",
     "modelo": "Renegade Longitude T270",
-    "preco_publico": "De: R$ R$165.960,00",
-    "preco_pcd": "R$ 137.815,00",
+    "preco_publico": "De: R$ 158.690,00",
+    "preco_pcd": "R$ 142.490,00",
     "imagens": ["marca-data/jeep/renegade_longitude.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "JEEP",
     "modelo": "Compass Sport T270",
     "preco_publico": "De: R$ 174.990,00",
-    "preco_pcd": "R$ 141.746,00",
+    "preco_pcd": "R$ 144.990,00",
     "imagens": ["marca-data/jeep/compass_sport.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "JEEP",
@@ -37,6 +38,7 @@
     "preco_publico": "De: R$ 199.890,00",
     "preco_pcd": "R$ 164.033,00",
     "imagens": ["marca-data/jeep/compass_longitude.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "21/01/2026",
+    "indisponivel": true
   }
 ]
