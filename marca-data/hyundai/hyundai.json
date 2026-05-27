@@ -1,10 +1,31 @@
 [
   {
     "marca": "HYUNDAI",
-    "modelo": "CRETA",
-    "preco_publico": "De: R$ 154.990,00",
-    "preco_pcd": "R$ 127.387,00",
+    "modelo": "CRETA COMFORT 1.0T",
+    "preco_publico": "De: R$ 157.490,00",
+    "preco_pcd": "R$ 128.701,32",
     "imagens": ["marca-data/hyundai/creta.png"],
-    "atualizado": "25/11/2025"
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "HYUNDAI",
+    "modelo": "CRETA LIMITED 1.0T",
+    "preco_publico": "De: R$ 173.390,00",
+    "preco_pcd": "R$ 145.110,09",
+    "imagens": ["marca-data/hyundai/creta.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "HYUNDAI",
+    "modelo": "CRETA PLATIUM 1.0T",
+    "preco_publico": "De: R$ 188.990,00",
+    "preco_pcd": "R$ 158.165,73",
+    "imagens": ["marca-data/hyundai/creta.png"],
+    "atualizado": "27/05/2026"
+  },{
+    "marca": "HYUNDAI",
+    "modelo": "CRETA ACTION 1.0T",
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 104.750,57",
+    "imagens": ["marca-data/hyundai/creta.png"],
+    "atualizado": "27/05/2026"
   }
 ]

@@ -3,40 +3,32 @@
     "marca": "CHEVROLET",
     "modelo": "Onix 1.0",
     "preco_publico": "De: R$ 99.990,00",
-    "preco_pcd": "R$ 87.490,00",
+    "preco_pcd": "R$ 87.390,00",
     "imagens": ["marca-data/chevrolet/onix.png"],
-    "atualizado": "17/02/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Onix AT",
     "preco_publico": "De: R$ 112.990,00",
-    "preco_pcd": "R$ 91.190,00",
+    "preco_pcd": "R$ 91.690,00",
     "imagens": ["marca-data/chevrolet/onix_at.png"],
-    "atualizado": "17/02/2026"
-  },
-  {
-    "marca": "CHEVROLET",
-    "modelo": "Spin AT",
-    "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 104.890,00",
-    "imagens": ["marca-data/chevrolet/spin_at.png"],
-    "atualizado": "19/01/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Tracker AT",
     "preco_publico": "De: R$ 119.900,00",
-    "preco_pcd": "R$ 100.990,00",
+    "preco_pcd": "R$ 99.990,00",
     "imagens": ["marca-data/chevrolet/tracker.png"],
-    "atualizado": "17/02/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CHEVROLET",
     "modelo": "Spark EUV",
     "preco_publico": "De: R$ 169.990,00",
-    "preco_pcd": "R$ 149.790,00",
+    "preco_pcd": "R$ 136.890,00",
     "imagens": ["marca-data/chevrolet/spark_euv.png"],
-    "atualizado": "17/02/2026"
+    "atualizado": "29/04/2026"
   }
 ]

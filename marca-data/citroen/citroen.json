@@ -1,6 +1,14 @@
 [
   {
     "marca": "CITROEN",
+    "modelo": "C3 LIVE GO 1.0 MT",
+    "preco_publico": "De: R$ 86.590,00",
+    "preco_pcd": "R$ 75.330,00",
+    "imagens": ["marca-data/citroen/c3_live.png"],
+    "atualizado": "29/04/2026"
+  },
+  {
+    "marca": "CITROEN",
     "modelo": "C3 FEEL 1.0 MT",
     "preco_publico": "De: R$ 96.290,00",
     "preco_pcd": "R$ 88.290,00",
@@ -18,10 +26,10 @@
   {
     "marca": "CITROEN",
     "modelo": "C3 YOU Turbo 200 AT",
-    "preco_publico": "De: R$ 111.290,00",
-    "preco_pcd": "R$ 90.780,00",
+    "preco_publico": "De: R$ 112.290,00",
+    "preco_pcd": "R$ 91.936,00",
     "imagens": ["marca-data/citroen/c3_you.png"],
-    "atualizado": "17/02/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CITROEN",
@@ -29,15 +37,15 @@
     "preco_publico": "De: R$ 119.990,00",
     "preco_pcd": "R$ 97.412,00",
     "imagens": ["marca-data/citroen/basalt_feel.png"],
-    "atualizado": "17/02/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CITROEN",
     "modelo": "Aircross FEEL Turbo 200 AT",
     "preco_publico": "De: R$ 119.990,00",
-    "preco_pcd": "R$ 119.990,00",
+    "preco_pcd": "R$ 95.917,53",
     "imagens": ["marca-data/citroen/aircross_feel.png"],
-    "atualizado": "23/01/2026"
+    "atualizado": "29/04/2026"
   },
   {
     "marca": "CITROEN",
@@ -54,5 +62,13 @@
     "preco_pcd": "R$ 123.460,00",
     "imagens": ["marca-data/citroen/aircross_xtr.png"],
     "atualizado": "17/02/2026"
+  }
+  {
+    "marca": "CITROEN",
+    "modelo": "Aircross 7 SHINE TURBO 200 AT",
+    "preco_publico": "De: R$ 154.490,00",
+    "preco_pcd": "R$ 131.316,00",
+    "imagens": ["marca-data/citroen/aircross_xtr.png"],
+    "atualizado": "29/04/2026"
   }
 ]

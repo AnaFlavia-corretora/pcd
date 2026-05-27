@@ -4,23 +4,23 @@
     "modelo": "Corolla Cross XR",
     "preco_publico": "De: R$ 192.600,00",
     "preco_pcd": "R$ 145.786,00",
-    "imagens": ["marca-data/toyota/corolla_cross_xr.png"],
-    "atualizado": "21/01/2026"
+    "imagens": ["marca-data/toyota/corolla_cross_xr_indisponivel.png"],
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla GLI Híbrido",
-    "preco_publico": "De: R$ 193.910,00",
-    "preco_pcd": "R$ 146.846,24",
+    "preco_publico": "De: R$ 195.710,00",
+    "preco_pcd": "R$ 146.336,42",
     "imagens": ["marca-data/toyota/corolla_gli.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   },
   {
     "marca": "TOYOTA",
     "modelo": "Corolla XEI",
-    "preco_publico": "De: R$ 175.310,00",
-    "preco_pcd": "R$ 161.951,47",
+    "preco_publico": "De: R$ 177.010,00",
+    "preco_pcd": "R$ 168.617,43",
     "imagens": ["marca-data/toyota/corolla_xei.png"],
-    "atualizado": "21/01/2026"
+    "atualizado": "27/05/2026"
   }
 ]
