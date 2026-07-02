@@ -3,24 +3,36 @@
     "marca": "PEUGEOT",
     "modelo": "208 Style",
     "preco_publico": "De: R$ 106.990,00",
-    "preco_pcd": "R$ 82.500,79",
+    "preco_pcd": "R$ 82.388,13",
     "imagens": ["marca-data/peugeot/208.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "02/07/2026"
+  },{
     "marca": "PEUGEOT",
     "modelo": "208 Active Turbo",
     "preco_publico": "De: R$ 115.550,00",
-    "preco_pcd": "R$ 97.125,00",
+    "preco_pcd": "R$ 86.419,00",
     "imagens": ["marca-data/peugeot/208_active.png"],
-    "atualizado": "21/01/2026"
-  },
-  {
+    "atualizado": "02/07/2026"
+  },{
     "marca": "PEUGEOT",
     "modelo": "2008 Active",
     "preco_publico": "De: R$ 153.990,00",
-    "preco_pcd": "R$ 124.440,76",
-    "imagens": ["marca-data/peugeot/2008.png"],
-    "atualizado": "21/01/2026"
+    "preco_pcd": "R$ 117.990,00",
+    "imagens": ["marca-data/peugeot/2008_active.png"],
+    "atualizado": "02/07/2026"
+  },{
+    "marca": "PEUGEOT",
+    "modelo": "208 GT Hybrid",
+    "preco_publico": "De: R$ 138.990,00",
+    "preco_pcd": "R$ 127.339,10",
+    "imagens": ["marca-data/peugeot/208_gt.png"],
+    "atualizado": "02/07/2026"
+  },{
+    "marca": "PEUGEOT",
+    "modelo": "2008 GT Hybrid",
+    "preco_publico": "De: R$ 184.990,00",
+    "preco_pcd": "R$ 151.717,14",
+    "imagens": ["marca-data/peugeot/2008_gt.png"],
+    "atualizado": "02/07/2026"
   }
 ]
