@@ -2,96 +2,122 @@
   {
     "marca": "NISSAN",
     "modelo": "Versa Sense",
-    "preco_publico": "De: R$ 117.990,00",
-    "preco_pcd": "R$ 92.590,00",
-    "imagens": ["marca-data/nissan/versa_sense.png"],
-    "atualizado": "27/05/2026"
+    "preco_publico": "De: R$ 119.990,00",
+    "preco_pcd": "R$ 94.290,00",
+    "imagens": [
+      "marca-data/nissan/versa_sense.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
     "modelo": "Kicks Play Active",
     "preco_publico": "De: R$ 117.990,00",
     "preco_pcd": "R$ 90.390,00",
-    "imagens": ["marca-data/nissan/kicks_play_active.png"],
-    "atualizado": "27/05/2026",
+    "imagens": [
+      "marca-data/nissan/kicks_play_active.png"
+    ],
+    "atualizado": "22/10/2026",
     "indisponivel": true
   },
   {
     "marca": "NISSAN",
-    "modelo": "KAIT Active",
+    "modelo": "Kait Active",
     "preco_publico": "De: R$ 117.990,00",
-    "preco_pcd": "R$ 99.990,00",
-    "imagens": ["marca-data/nissan/kait.png"],
-    "atualizado": "27/05/2026"
-  },{
+    "preco_pcd": "R$ 96.990,00",
+    "imagens": [
+      "marca-data/nissan/kait.png"
+    ],
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "NISSAN",
     "modelo": "Versa Advance",
-    "preco_publico": "De: R$ 128.390,00",
-    "preco_pcd": "R$ 107.490,00",
-    "imagens": ["marca-data/nissan/versa_advance.png"],
-    "atualizado": "27/05/2026"
-  },{
-    "marca": "NISSAN",
-    "modelo": "Versa Esclusive",
-    "preco_publico": "De: R$ 138.645,00",
-    "preco_pcd": "R$ 123.990,00",
-    "imagens": ["marca-data/nissan/versa_exclusive.png"],
-    "atualizado": "27/05/2026"
+    "preco_publico": "De: R$ 129.990,00",
+    "preco_pcd": "R$ 111.290,00",
+    "imagens": [
+      "marca-data/nissan/versa_advance.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
-    "modelo": "KAIT Sense plus",
+    "modelo": "Versa Exclusive",
+    "preco_publico": "De: R$ 148.290,00",
+    "preco_pcd": "R$ 125.490,00",
+    "imagens": [
+      "marca-data/nissan/versa_exclusive.png"
+    ],
+    "atualizado": "22/10/2026"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "Kait Sense",
+    "preco_publico": "De: R$ 129.990,00",
+    "preco_pcd": "R$ 109.390,00",
+    "imagens": [
+      "marca-data/nissan/kait.png"
+    ],
+    "atualizado": "22/10/2026"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "Kait Advance",
     "preco_publico": "De: R$ 136.990,00",
-    "preco_pcd": "R$ 108.990,00",
-    "imagens": ["marca-data/nissan/kait.png"],
-    "atualizado": "27/05/2026"
+    "preco_pcd": "R$ 115.290,00",
+    "imagens": [
+      "marca-data/nissan/kait.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
-    "modelo": "KAIT Advance Plus",
-    "preco_publico": "De: R$ 149.890,00",
-    "preco_pcd": "R$ 115.990,00",
-    "imagens": ["marca-data/nissan/kait.png"],
-    "atualizado": "27/05/2026"
+    "modelo": "Kait Exclusive",
+    "preco_publico": "De: R$ 149.990,00",
+    "preco_pcd": "R$ 126.290,00",
+    "imagens": [
+      "marca-data/nissan/kait.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
-    "modelo": "KAIT Exclusive",
-    "preco_publico": "De: R$ 152.990,00",
-    "preco_pcd": "R$ 129.490,00",
-    "imagens": ["marca-data/nissan/kait.png"],
-    "atualizado": "27/05/2026"
-  },
-  {
-    "marca": "NISSAN",
-    "modelo": "New Kicks Sense",
-    "preco_publico": "De: R$ 168.690,00",
+    "modelo": "Kicks Sense",
+    "preco_publico": "De: R$ 159.990,00",
     "preco_pcd": "R$ 134.590,00",
-    "imagens": ["marca-data/nissan/novo_kicks_sense.png"],
-    "atualizado": "27/05/2026"
+    "imagens": [
+      "marca-data/nissan/novo_kicks_sense.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
-    "modelo": "New Kicks Advance",
+    "modelo": "Kicks Advance",
+    "preco_publico": "De: R$ 169.990,00",
+    "preco_pcd": "R$ 148.690,00",
+    "imagens": [
+      "marca-data/nissan/novo_kicks_advance.png"
+    ],
+    "atualizado": "22/10/2026"
+  },
+  {
+    "marca": "NISSAN",
+    "modelo": "Kicks Exclusive",
     "preco_publico": "De: R$ 179.990,00",
-    "preco_pcd": "R$ 148.590,00",
-    "imagens": ["marca-data/nissan/novo_kicks_advance.png"],
-    "atualizado": "27/05/2026"
+    "preco_pcd": "R$ 166.990,00",
+    "imagens": [
+      "marca-data/nissan/novo_kicks_exclusive.png"
+    ],
+    "atualizado": "22/10/2026"
   },
   {
     "marca": "NISSAN",
-    "modelo": "New Kicks Exclusive",
-    "preco_publico": "De: R$ 187.190,00",
-    "preco_pcd": "R$ 167.290,00",
-    "imagens": ["marca-data/nissan/novo_kicks_exclusive.png"],
-    "atualizado": "27/05/2026"
-  },
-  {
-    "marca": "NISSAN",
-    "modelo": "New Kicks Platium",
-    "preco_publico": "De: R$ 199.000,00",
-    "preco_pcd": "R$ 177.890,00",
-    "imagens": ["marca-data/nissan/novo_kicks_platium.png"],
-    "atualizado": "27/05/2026"
+    "modelo": "Kicks Platinum",
+    "preco_publico": "De: R$ 189.990,00",
+    "preco_pcd": "R$ 176.190,00",
+    "imagens": [
+      "marca-data/nissan/novo_kicks_platium.png"
+    ],
+    "atualizado": "22/10/2026"
   }
 ]

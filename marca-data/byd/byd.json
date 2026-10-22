@@ -5,22 +5,41 @@
     "preco_publico": "De: R$ 118.990,00",
     "preco_pcd": "R$ 107.990,00",
     "imagens": ["marca-data/byd/dolphin_mini_gl.png"],
-    "atualizado": "29/04/2026"
-  },
-  {
+    "atualizado": "22/10/2026"
+  },{
     "marca": "BYD",
     "modelo": "KING GL",
     "preco_publico": "De: R$ 172.990,00",
     "preco_pcd": "R$ 135.990,00",
     "imagens": ["marca-data/byd/king_gl.png"],
-    "atualizado": "29/04/2026"
-  },
-  {
+    "atualizado": "22/10/2026"
+  },{
+    "marca": "BYD",
+    "modelo": "ATTO 2 GL",
+    "preco_publico": "De: R$ 159.990,00",
+    "preco_pcd": "R$ 143.490,00",
+    "imagens": ["marca-data/byd/atto_2.png"],
+    "atualizado": "22/10/2026"
+  },{
+    "marca": "BYD",
+    "modelo": "ATTO 2 GS",
+    "preco_publico": "De: R$ 169.990,00",
+    "preco_pcd": "R$ 162.790,00",
+    "imagens": ["marca-data/byd/atto_2.png"],
+    "atualizado": "22/10/2026"
+  },{
     "marca": "BYD",
     "modelo": "SONG PRO GL",
-    "preco_publico": "De: R$ 189.990,00",
-    "preco_pcd": "R$ 148.990,00",
+    "preco_publico": "De: R$ 196.990,00",
+    "preco_pcd": "R$ 172.990,00",
     "imagens": ["marca-data/byd/song_gl.png"],
-    "atualizado": "29/04/2026"
+    "atualizado": "22/10/2026"
+  },{
+    "marca": "BYD",
+    "modelo": "SONG PRO GS",
+    "preco_publico": "De: R$ 189.990,00",
+    "preco_pcd": "R$ 187.990,00",
+    "imagens": ["marca-data/byd/song_gs.png"],
+    "atualizado": "22/10/2026"
   }
 ]

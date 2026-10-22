@@ -1,10 +1,10 @@
 [
   {
     "marca": "HAVAL",
-    "modelo": "H6 HEV",
-    "preco_publico": "De: R$ 199.990,00",
-    "preco_pcd": "R$ 164.990,00",
+    "modelo": "H6 HEV ONE",
+    "preco_publico": "De: R$ 199.900,00",
+    "preco_pcd": "R$ 169.995,00",
     "imagens": ["marca-data/haval/h6.png"],
-    "atualizado": "09/03/2026"
+    "atualizado": "22/10/2026"
   }
 ]

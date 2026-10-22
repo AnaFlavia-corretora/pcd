@@ -1,32 +1,34 @@
 [
   {
     "marca": "TOYOTA",
-    "modelo": "Yaris Cross",
-    "preco_publico": "De: R$ 151.990,00",
-    "preco_pcd": "R$ 128.679,57",
+    "modelo": "Yaris Cross XR",
+    "preco_publico": "De: R$ 149.990,00",
+    "preco_pcd": "R$ 119.990,00",
     "imagens": ["marca-data/toyota/yaris_cross.png"],
-    "atualizado": "13/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "TOYOTA",
     "modelo": "Corolla Cross XR",
-    "preco_publico": "De: R$ 192.600,00",
-    "preco_pcd": "R$ 145.786,00",
+    "preco_publico": "De: R$ 194.090,00",
+    "preco_pcd": "R$ 147.990,00",
     "imagens": ["marca-data/toyota/corolla_cross_xr.png"],
-    "atualizado": "27/05/2026",
-    "indisponivel": true
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "TOYOTA",
     "modelo": "Corolla GLI Híbrido",
-    "preco_publico": "De: R$ 191.890,00",
+    "preco_publico": "De: R$ 197.120,00",
     "preco_pcd": "R$ 152.362,43",
     "imagens": ["marca-data/toyota/corolla_gli.png"],
-    "atualizado": "13/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "TOYOTA",
     "modelo": "Corolla XEI",
-    "preco_publico": "De: R$ 174.990,00",
-    "preco_pcd": "R$ 169.169,93",
+    "preco_publico": "De: R$ 178.990,00",
+    "preco_pcd": "R$ 169.169,03",
     "imagens": ["marca-data/toyota/corolla_xei.png"],
-    "atualizado": "13/07/2026"
+    "atualizado": "22/10/2026"
   }
 ]

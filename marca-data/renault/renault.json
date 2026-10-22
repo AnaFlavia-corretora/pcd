@@ -1,89 +1,101 @@
 [
   {
     "marca": "RENAULT",
-    "modelo": "KWID Zen",
-    "preco_publico": "De: R$ 79.110,00",
-    "preco_pcd": "R$ 65.500,15",
+    "modelo": "KWID Evolution",
+    "preco_publico": "De: R$ 83.490,00",
+    "preco_pcd": "R$ 62.951,84",
     "imagens": ["marca-data/renault/kwid_zen.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
-    "modelo": "KWID Intense",
-    "preco_publico": "De: R$ 82.320,00",
-    "preco_pcd": "R$ 67.229,84",
+    "modelo": "KWID Techno",
+    "preco_publico": "De: R$ 86.590,00",
+    "preco_pcd": "R$ 65.601,15",
     "imagens": ["marca-data/renault/kwid_intense.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
     "modelo": "KWID Iconic",
     "preco_publico": "De: R$ 85.020,00",
     "preco_pcd": "R$ 61.951,00",
     "imagens": ["marca-data/renault/kwid_ionic.png"],
-    "atualizado": "15/07/2026",
+    "atualizado": "22/10/2026",
     "indisponivel": true
-  },{
+  },
+  {
     "marca": "RENAULT",
     "modelo": "KWID Outsider",
-    "preco_publico": "De: R$ 85.840",
-    "preco_pcd": "R$ 71.896,00",
+    "preco_publico": "De: R$ 91.890,00",
+    "preco_pcd": "R$ 70.130,61",
     "imagens": ["marca-data/renault/kwid_outsider.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
     "modelo": "Kardian Authentic AT 1.0T",
     "preco_publico": "De: R$ 113.990,00",
     "preco_pcd": "R$ 95.474,11",
     "imagens": ["marca-data/renault/kardian_authentic.png"],
-    "atualizado": "15/07/2026",
+    "atualizado": "22/10/2026",
     "indisponivel": true
-  },{
+  },
+  {
     "marca": "RENAULT",
-    "modelo": "Kardian Evolution 1.0 AT",
-    "preco_publico": "De: R$ 124.690,00",
-    "preco_pcd": "R$ 111.155,00",
+    "modelo": "Kardian Evolution AT 1.0T",
+    "preco_publico": "De: R$ 126.590,00",
+    "preco_pcd": "R$ 101.560,00",
     "imagens": ["marca-data/renault/kardian_evolution.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
-    "modelo": "Kardian Techno 1.0 AT",
-    "preco_publico": "De: R$ 132.690,00",
-    "preco_pcd": "R$ 110.472,00",
+    "modelo": "Kardian Techno AT 1.0T",
+    "preco_publico": "De: R$ 139.990,00",
+    "preco_pcd": "R$ 111.990,00",
     "imagens": ["marca-data/renault/kardian_techno.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
-    "modelo": "Kardian Ionic 1.0 AT",
-    "preco_publico": "De: R$ 146.990,00",
+    "modelo": "Kardian Iconic 1.0 AT",
+    "preco_publico": "De: R$ 149.990,00",
     "preco_pcd": "R$ 118.968,00",
     "imagens": ["marca-data/renault/kardian_ionic.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026",
+    "indisponivel": true
+  },
+  {
     "marca": "RENAULT",
     "modelo": "Duster Intense Plus 1.6",
     "preco_publico": "De: R$ 144.990,00",
-  "preco_pcd": "R$ 118.841,00",
+    "preco_pcd": "R$ 114.790,21",
     "imagens": ["marca-data/renault/duster_intense.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
     "modelo": "Duster Iconic Plus 1.6",
     "preco_publico": "De: R$ 154.990,00",
-    "preco_pcd": "R$ 127.038,00",
+    "preco_pcd": "R$ 122.707,32",
     "imagens": ["marca-data/renault/duster_iconic.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
     "modelo": "Duster Iconic Plus 1.3T",
     "preco_publico": "De: R$ 171.990,00",
-    "preco_pcd": "R$ 140.972,29",
+    "preco_pcd": "R$ 136.166,41",
     "imagens": ["marca-data/renault/duster_iconic.png"],
-    "atualizado": "15/07/2026"
-  },{
+    "atualizado": "22/10/2026"
+  },
+  {
     "marca": "RENAULT",
     "modelo": "Boreal Evolution 1.3 Turbo",
-    "preco_publico": "De: R$ 183.990,00",
-    "preco_pcd": "R$ 149.103,00",
+    "preco_publico": "De: R$ 182.990,00",
+    "preco_pcd": "R$ 143.961,53",
     "imagens": ["marca-data/renault/boreal_evolution.png"],
-    "atualizado": "15/07/2026"
+    "atualizado": "22/10/2026"
   }
 ]
