@@ -200,11 +200,13 @@ function renderImoveis(carros, currentSortOption) {
   container.innerHTML = ""; // Limpa o conteúdo existente
 
   const isSortedByMarca = currentSortOption === "marca_asc";
+  
+/**
   // Verifica se a ordenação atual é por Desconto (R$) OU Desconto (%)
   const shouldShowDiscount =
     currentSortOption === "desconto_desc" ||
     currentSortOption === "desconto_percentual_desc";
-
+*/
   let lastMarca = null; // Usado para rastrear a marca anterior
 
   carros.forEach((carro) => {
@@ -230,7 +232,7 @@ function renderImoveis(carros, currentSortOption) {
     let discountHTML = "";
 
     // 🚀 LÓGICA DE EXIBIÇÃO: SÓ GERA O HTML SE shouldShowDiscount FOR TRUE
-    if (shouldShowDiscount) {
+    //if (shouldShowDiscount) {
       const descontoValue = calculateDesconto(carro);
       const descontoFormatted = formatCurrency(descontoValue);
 
@@ -243,7 +245,7 @@ function renderImoveis(carros, currentSortOption) {
                 </div>
             </div>
         `;
-    }
+    //}
 
     // Lógica de renderização do cartão
 // Lógica de renderização do cartão
