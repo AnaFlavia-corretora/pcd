@@ -1,0 +1,26 @@
+[
+  {
+    "marca": "GEELY",
+    "modelo": "EX2 PRO",
+    "preco_publico": "De: R$ 124.600,00",
+    "preco_pcd": "R$ 120.580,00",
+    "imagens": ["marca-data/geely/ex2.png"],
+    "atualizado": "23/10/2026"
+  },
+  {
+    "marca": "GEELY",
+    "modelo": "EX2 MAX",
+    "preco_publico": "De: R$ 137.800,00",
+    "preco_pcd": "R$ 133.242,00",
+    "imagens": ["marca-data/geely/ex2.png"],
+    "atualizado": "23/10/2026"
+  },
+  {
+    "marca": "GEELY",
+    "modelo": "EX5 EM-i PRO",
+    "preco_publico": "De: R$ 191.490,00",
+    "preco_pcd": "R$ 172.210,00",
+    "imagens": ["marca-data/geely/ex5.png"],
+    "atualizado": "23/10/2026"
+  }
+]
